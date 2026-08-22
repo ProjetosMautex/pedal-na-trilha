@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-primary: #10b981; /* Emerald 500 */
+  --color-primary-dark: #047857; /* Emerald 700 */
+  --color-dark-bg: #09090b; /* Slate 900 */
+  --color-dark-card: #18181b; /* Slate 800 */
+  --color-text-light: #f8fafc; /* Slate 50 */
+  --color-text-muted: #94a3b8; /* Slate 400 */
+  --color-accent: #3b82f6; /* Blue 500 */
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-dark-bg)] text-[var(--color-text-light)] font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

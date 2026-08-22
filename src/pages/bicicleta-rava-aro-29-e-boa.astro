@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoRavaAro29 } from '../components/ArtigoRavaAro29.tsx';
+
+const title = "Bicicleta Rava aro 29 é boa? Ou Alternativas Caloi e Absolute são melhores?";
+const description = "Bicicleta Rava aro 29 é boa? Analisamos a suspensão e marchas da Pressure e Up, e comparamos com Caloi e Absolute para descobrir o melhor custo-benefício.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoRavaAro29 client:load />
+  </main>
+</Layout>

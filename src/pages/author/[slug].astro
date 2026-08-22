@@ -1,0 +1,60 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { authors } from '../../data/authors';
+
+export function getStaticPaths() {
+  return authors.map((author) => {
+    return {
+      params: { slug: author.slug },
+      props: { author },
+    };
+  });
+}
+
+const { author } = Astro.props;
+---
+
+<Layout title={`${author.name} | Pedal na Trilha`} description={author.role}>
+  <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+    <div className="bg-[#18181b] rounded-2xl border border-cyan-900/30 overflow-hidden shadow-2xl">
+      <div className="bg-gradient-to-r from-cyan-900/40 to-transparent p-8 md:p-12 border-b border-cyan-900/30 flex flex-col md:flex-row items-center md:items-start gap-8">
+        <div className="shrink-0">
+          <img 
+            src={author.imageUrl} 
+            alt={`Foto de ${author.name}`} 
+            className="w-48 h-48 rounded-full object-cover border-4 border-cyan-500 shadow-xl"
+          />
+        </div>
+        <div className="text-center md:text-left flex-1">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-zinc-100 mb-2">{author.name}</h1>
+          <p className="text-xl text-cyan-400 font-semibold uppercase tracking-wider">{author.role}</p>
+        </div>
+      </div>
+      
+      <div className="p-8 md:p-12">
+        <article className="prose prose-invert prose-lg max-w-none prose-cyan">
+          <h2 className="text-2xl font-bold text-zinc-100 mb-6">Sobre o Autor</h2>
+          {author.paragraphs.map((p) => (
+            <p set:html={p.replace(/Pedal na Trilha/g, '<strong>Pedal na Trilha</strong>')} />
+          ))}
+          
+          <blockquote className="border-l-4 border-cyan-500 pl-6 my-10 italic text-zinc-300 text-xl font-medium leading-relaxed bg-cyan-900/10 py-6 pr-6 rounded-r-lg">
+            {author.quote.split('—').map((part, i, arr) => 
+              i === arr.length - 1 ? (
+                <span key={i}>— <strong className="text-cyan-400">{part.trim()}</strong></span>
+              ) : (
+                <span key={i}>{part}</span>
+              )
+            )}
+          </blockquote>
+        </article>
+      </div>
+    </div>
+    
+    <div className="mt-12 text-center">
+      <a href="/sobre-nos" className="inline-flex items-center justify-center bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 px-6 rounded-lg transition-colors">
+        &larr; Voltar para a Equipe
+      </a>
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { BlogContent } from '../components/BlogContent';
+
+const title = "Blog | Pedal na Trilha";
+const description = "Acompanhe nossos artigos, análises e guias sobre bicicletas aro 29.";
+---
+
+<Layout title={title} description={description}>
+  <BlogContent client:load />
+</Layout>

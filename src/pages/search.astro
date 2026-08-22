@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { articles } from '../data/articles';
+
+const query = Astro.url.searchParams.get('q') || '';
+const results = articles.filter(article => 
+  article.title.toLowerCase().includes(query.toLowerCase()) || 
+  article.excerpt.toLowerCase().includes(query.toLowerCase())
+);
+---
+
+<Layout title={`Resultados para "${query}" | Pedal na Trilha`}>
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <h1 class="text-3xl font-bold mb-8 text-zinc-100">
+      Resultados da busca por: <span class="text-cyan-400">"{query}"</span>
+    </h1>
+
+    {results.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {results.map((article, index) => (
+          <a href={article.url} class="block bg-[#18181b] rounded-2xl overflow-hidden border border-cyan-900/30 hover:border-cyan-500/50 transition-all group shadow-lg hover:shadow-cyan-900/20 flex flex-col h-full">
+            {article.image && (
+              <div class="relative h-48 overflow-hidden bg-zinc-800">
+                <img src={article.image} alt={article.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              </div>
+            )}
+            <div class="p-6 flex flex-col flex-grow">
+              <h3 class="text-xl font-bold text-zinc-100 mb-3 group-hover:text-cyan-400 transition-colors">{article.title}</h3>
+              <p class="text-zinc-400 text-sm mb-6 flex-grow">{article.excerpt}</p>
+              <div class="mt-auto pt-4 border-t border-zinc-700/50 flex items-center justify-end text-sm">
+                <span class="text-cyan-400 font-semibold group-hover:translate-x-1 transition-transform">Ler mais &rarr;</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <div class="bg-[#18181b] p-8 rounded-xl border border-cyan-900/30 text-center">
+        <p class="text-zinc-300 text-lg mb-4">Nenhum resultado encontrado para a sua busca.</p>
+        <a href="/" class="inline-block bg-cyan-600 hover:bg-cyan-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors">
+          Voltar para Home
+        </a>
+      </div>
+    )}
+  </div>
+</Layout>

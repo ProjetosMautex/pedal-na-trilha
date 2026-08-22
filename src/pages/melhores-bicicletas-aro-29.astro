@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MelhoresBicicletas } from '../components/MelhoresBicicletas.tsx';
+
+// Aqui você define o SEO da página
+const title = "Qual a Melhor Bicicleta Aro 29? Top 8 Custo-Benefício (2026)";
+const description = "Descubra qual a melhor bicicleta aro 29 para o seu perfil em 2026. Analisamos os 8 modelos com o melhor custo-benefício para trilhas e uso urbano.";
+---
+
+<Layout title={title} description={description}>
+  {/* O client:load é necessário para que os ícones e interações funcionem */}
+  <MelhoresBicicletas client:load />
+</Layout>

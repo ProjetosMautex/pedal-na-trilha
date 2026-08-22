@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import ExitIntentPopup from '../components/ExitIntentPopup';
+
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "A autoridade máxima em marcas de bicicletas elétricas." } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="flex flex-col min-h-screen bg-[#09090b] text-zinc-50 font-sans">
+    <Header client:load />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
+    {/* ExitIntentPopup mantido no DOM, mas a logica de inativo estara no componente */}
+    <ExitIntentPopup client:idle />
+  </body>
+</html>
