@@ -41,5 +41,11 @@ export const articles: Article[] = [
     url: "/bicicleta-gts-pro-m5-aro-29-e-boa",
     image: "/images/blog/1/gts_pro_m5_card.webp",
     excerpt: "A bicicleta GTS Pro M5 aro 29 vale o seu suado dinheiro ou a KSW é melhor? Confira a opinião sincera de um mecânico sobre prós, contras e manutenção real."
+  },
+  {
+    title: "Bicicleta GTA aro 29 é boa Ou Alternativa KSW é melhor?",
+    url: "/bicicleta-gta-aro-29-e-boa",
+    image: "/images/blog/1/GTA Start aro 29 21v e boa.webp",
+    excerpt: "Descubra se a bicicleta GTA aro 29 é a escolha certa para começar no ciclismo ou se alternativas como a KSW atendem melhor sua rotina."
   }
 ];

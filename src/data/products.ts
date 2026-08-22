@@ -143,6 +143,15 @@ export const products: Product[] = [
     affiliateUrl: "https://meli.la/2n53Vpd",
     category: "Iniciantes/Urbano",
     features: ["Quadro em Alumínio", "Aro 29", "Freio a Disco"],
+  },
+  {
+    id: "gta-start-21v",
+    name: "GTA Start aro 29 21v",
+    description: "A porta de entrada da marca, ideal para quem quer fugir do trânsito na ciclovia e curtir uma estradinha de terra no domingo com excelente custo-benefício.",
+    imageUrl: "/images/blog/1/GTA Start aro 29 21v.webp",
+    affiliateUrl: "https://meli.la/1oUnqHo",
+    category: "Iniciantes/Lazer",
+    features: ["Cabeamento Interno", "21 Marchas", "Quadro em Alumínio"]
   }
 ];
 

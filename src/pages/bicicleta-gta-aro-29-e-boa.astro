@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoGTAAro29 } from '../components/ArtigoGTAAro29.tsx';
+
+// Aqui você define o SEO da página
+const title = "Bicicleta GTA aro 29 é boa Ou Alternativa KSW é melhor?";
+const description = "Bicicleta GTA aro 29 é boa? Descubra se este modelo é a escolha certa para começar no ciclismo ou se alternativas como a KSW atendem melhor sua rotina.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    {/* A prop client:load faz o componente React hidratar assim que a página carregar */}
+    <ArtigoGTAAro29 client:load />
+  </main>
+</Layout>
