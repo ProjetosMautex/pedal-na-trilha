@@ -183,20 +183,20 @@ export const products: Product[] = [
   {
     id: "pneu-levorin-eruption",
     name: "Pneu Levorin Eruption 29x2 Banda Leve MTB",
-    description: "Tecnologia premium para quem exige performance máxima e tração bruta.",
+    description: "Custo-benefício incrível com tração bruta.",
     imageUrl: "/images/blog/1/Pneu Levorin Eruption 29x2 Banda Leve MTB.webp",
     affiliateUrl: "https://meli.la/1C8m4Rf",
     category: "Pneu Aro 29",
-    features: ["Banda Leve", "Performance Premium", "Tração Bruta"]
+    features: ["Arame de aço", "Cravos profundos", "Para asfalto e terra"]
   },
   {
     id: "par-pneus-levorin",
     name: "Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve",
-    description: "Investimento premium para garantir a estabilidade perfeita em trilhas técnicas.",
+    description: "Renove a bike toda gastando menos com este par resistente.",
     imageUrl: "/images/blog/1/Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve.webp",
     affiliateUrl: "https://meli.la/32fUaqf",
     category: "Pneu Aro 29",
-    features: ["Par Premium", "Banda leve", "Estabilidade total"]
+    features: ["Par econômico", "Largura 2.30", "Durabilidade"]
   },
   {
     id: "pneu-kenda-aptor",

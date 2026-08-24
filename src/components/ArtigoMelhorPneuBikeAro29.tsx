@@ -396,13 +396,13 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <h3>Pneu Levorin Eruption 29x2 Banda Leve MTB</h3>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
-          <p>Esqueça tudo o que você achava que sabia sobre pneus para a terra.</p>
-          <p>O Levorin Eruption Banda Leve MTB sobe a régua e traz uma tecnologia embarcada digna das competições, justificando seu posicionamento de altíssimo padrão.</p>
-          <p>Seu preço é consideravelmente superior às linhas de entrada, chegando a bater o dobro do valor de alguns concorrentes consagrados (como o Ikon ou o Scorpion).</p>
-          <p>Mas existe um motivo claro para isso: a carcaça de banda leve foi engenhosamente desenhada para rasgar as trilhas mais punitivas sem te deixar na mão.</p>
-          <p>Ele tem cravos agressivos, perfeitamente espaçados, que grudam no cascalho solto e na lama pesada como garras.</p>
-          <p>É o investimento definitivo para o ciclista que já esgotou a capacidade dos pneus comuns e precisa de uma borracha que não amolece no primeiro obstáculo extremo.</p>
-          <p>Se você busca performance máxima e durabilidade brutal, essa é a escolha premium.</p>
+          <p>Aqui temos o herói do custo-benefício nacional.</p>
+          <p>O Levorin Eruption 29x2.30 é para você que quer fugir do preço do dólar sem colocar sua segurança em risco.</p>
+          <p>Ele tem uma base de arame de aço super estável, perfeita para quem divide a semana entre ir para o trabalho de bike e se enfiar no mato no domingo.</p>
+          <p>O segredo dele são os cravos bem profundos e espaçados.</p>
+          <p>Sabe aquela subida de cascalho solto onde a roda traseira costuma patinar?</p>
+          <p>O Eruption agarra e te joga pra cima.</p>
+          <p>Com 930g, ele não vai te dar troféu de velocidade, mas vai te entregar a resistência de um tanque de guerra por um preço que você consegue pagar sorrindo.</p>
         </div>
         <AffiliateCard product={products.find(p => p.id === 'pneu-levorin-eruption')!} />
         
@@ -410,17 +410,17 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <div className="bg-emerald-950/20 border border-emerald-900/50 p-6 rounded-xl">
             <h4 className="text-emerald-400 font-bold mb-4 flex items-center gap-2"><Check className="w-5 h-5" /> Prós</h4>
             <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Tração brutal em terra solta e condições extremas.</li>
-              <li>Construção de banda leve que ajuda muito no rendimento.</li>
-              <li>Tecnologia premium para quem exige performance máxima.</li>
-              <li>Extrema durabilidade contra cortes nas laterais.</li>
+              <li>Tração bruta em terra batida e cascalho.</li>
+              <li>Você acha fácil em qualquer loja do Brasil.</li>
+              <li>Arame de aço que aguenta muita pancada.</li>
+              <li>Preço justíssimo para renovar os pneus.</li>
             </ul>
           </div>
           <div className="bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
             <h4 className="text-red-400 font-bold mb-4 flex items-center gap-2"><X className="w-5 h-5" /> Contras</h4>
             <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Investimento muito alto (custa o dobro dos concorrentes médios).</li>
-              <li>Seu cravos robustos não rendem tão bem no asfalto liso.</li>
+              <li>Os 930g seguram um pouco a velocidade da bike.</li>
+              <li>Carcaça de 33 TPI faz ele pular um pouco mais em raízes.</li>
             </ul>
           </div>
         </div>
@@ -430,12 +430,11 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <h3>Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve</h3>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
-          <p>Se a unidade do Levorin Eruption já impressiona, comprar o par de uma vez é a decisão dos pilotos mais focados.</p>
-          <p>Você garante a mesma tração violenta tanto na roda de tração quanto na direção, cravando a bike no chão de forma equilibrada.</p>
-          <p>O perfil 2.30 é largo, robusto e engole irregularidades no terreno, passando por cima de raízes e pedras com muito mais maciez.</p>
-          <p>Lógico, adquirir o par de um pneu que já possui um valor mais salgado exige fôlego financeiro.</p>
-          <p>Porém, para competidores e entusiastas de Enduro ou trilhas técnicas, a segurança e a resposta imediata da bike mudam da água para o vinho.</p>
-          <p>Você zera a necessidade de upgrades por muito tempo.</p>
+          <p>Se um Levorin Eruption já é bom para o bolso, comprar o par de uma vez é a jogada de mestre da economia.</p>
+          <p>Com esse kit, você renova a bicicleta inteira gastando menos do que pagaria em um único pneu de marcas gringas.</p>
+          <p>Eles garantem aquela tração bruta tanto na roda de trás (para subir) quanto na da frente (para não escorregar nas curvas de terra).</p>
+          <p>O formato 29x2.30 deixa a bike bem "parruda", absorvendo muito mais os solavancos da rua ou do estradão.</p>
+          <p>É a solução perfeita para quem quer deixar a magrela pronta para o fim de semana sem precisar parcelar em 12 vezes.</p>
         </div>
         <AffiliateCard product={products.find(p => p.id === 'par-pneus-levorin')!} />
         
@@ -443,17 +442,17 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <div className="bg-emerald-950/20 border border-emerald-900/50 p-6 rounded-xl">
             <h4 className="text-emerald-400 font-bold mb-4 flex items-center gap-2"><Check className="w-5 h-5" /> Prós</h4>
             <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Garante estabilidade perfeita na dianteira e traseira.</li>
-              <li>Perfil largo (2.30) que oferece mais conforto e área de contato.</li>
-              <li>Resolve a troca de pneus de uma vez só.</li>
-              <li>Incrível resistência a furos e cortes nas trilhas técnicas.</li>
+              <li>Custo-benefício imbatível (o par custa menos que um pneu importado).</li>
+              <li>Visual robusto com a largura 2.30.</li>
+              <li>Troca os dois pneus de uma vez, garantindo estabilidade por igual.</li>
+              <li>Excelente durabilidade para rodar muito tempo.</li>
             </ul>
           </div>
           <div className="bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
             <h4 className="text-red-400 font-bold mb-4 flex items-center gap-2"><X className="w-5 h-5" /> Contras</h4>
             <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Custo inicial consideravelmente elevado por ser o par premium.</li>
-              <li>É excesso de pneu se você roda apenas no asfalto da cidade.</li>
+              <li>Somando os dois, você coloca quase 2kg a mais na bike.</li>
+              <li>Cravos altos "amarram" um pouco a bicicleta no asfalto liso.</li>
             </ul>
           </div>
         </div>
