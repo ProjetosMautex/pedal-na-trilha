@@ -181,13 +181,13 @@ export const products: Product[] = [
     features: ["Tubeless Ready", "Proteção EXO", "Rápido"]
   },
   {
-    id: "pneu-levorin-eruption",
-    name: "Pneu Levorin Eruption 29x2 Banda Leve MTB",
-    description: "Custo-benefício incrível com tração bruta.",
-    imageUrl: "/images/blog/1/Pneu Levorin Eruption 29x2 Banda Leve MTB.webp",
-    affiliateUrl: "https://meli.la/1C8m4Rf",
+    id: "pneu-maxxis-rekon-race",
+    name: "Pneu Maxxis Rekon Race 29x2.25 Kevlar Exo Tubeless",
+    description: "Foco em Performance e Velocidade. O pneu de Cross Country (XC) para quem busca pódios.",
+    imageUrl: "/images/blog/1/pneu aro 29 maxxis rekon race 29x2.25 kevlar exo tubeless.webp",
+    affiliateUrl: "https://link.amazon/B0aU2fiAC",
     category: "Pneu Aro 29",
-    features: ["Arame de aço", "Cravos profundos", "Para asfalto e terra"]
+    features: ["Semi-Slick XC", "EXO Protection", "Tubeless Ready"]
   },
   {
     id: "par-pneus-levorin",

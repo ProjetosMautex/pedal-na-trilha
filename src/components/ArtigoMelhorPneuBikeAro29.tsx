@@ -17,8 +17,8 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
     'pneu-paco-nomad': { shortName: 'Paco Nomad Faixa Bege', category: 'Passeio / Urbano', score: '8.5' },
     'pneu-pirelli-scorpion': { shortName: 'Pirelli Scorpion Pro', category: 'Trilha Técnica', score: '9.2' },
     'pneu-maxxis-ikon': { shortName: 'Maxxis Ikon Exo', category: 'Cross Country (XC)', score: '9.6' },
-    'pneu-levorin-eruption': { shortName: 'Levorin Eruption', category: 'Custo-Benefício / Misto', score: '8.8' },
-    'par-pneus-levorin': { shortName: 'Par Levorin Eruption', category: 'Trilha e Asfalto', score: '9.0' },
+    'par-pneus-levorin': { shortName: 'Par Levorin Eruption', category: 'Custo-Benefício / Misto', score: '9.0' },
+    'pneu-maxxis-rekon-race': { shortName: 'Maxxis Rekon Race', category: 'Performance (XC)', score: '9.7' },
     'pneu-kenda-aptor': { shortName: 'Kenda Aptor Faixa Marrom', category: 'Estilo / Urbano', score: '8.7' },
     'pneu-bicicleta-exces': { shortName: 'Levorin Excess (Par)', category: 'Asfalto / Dia a dia', score: '8.4' }
   };
@@ -237,7 +237,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
                 </tr>
               </thead>
               <tbody>
-                {['pneu-paco-nomad', 'pneu-pirelli-scorpion', 'pneu-maxxis-ikon', 'pneu-levorin-eruption', 'par-pneus-levorin', 'pneu-kenda-aptor', 'pneu-bicicleta-exces'].map((id) => {
+                {['pneu-paco-nomad', 'pneu-pirelli-scorpion', 'pneu-maxxis-ikon', 'par-pneus-levorin', 'pneu-maxxis-rekon-race', 'pneu-kenda-aptor', 'pneu-bicicleta-exces'].map((id) => {
                   const product = products.find(p => p.id === id);
                   if (!product) return null;
                   const meta = productMetadata[product.id] || { shortName: product.name, category: product.category, score: "-" };
@@ -393,44 +393,10 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
 
         {/* Produto 4 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8 mt-12">
-          <h3>Pneu Levorin Eruption 29x2 Banda Leve MTB</h3>
-        </div>
-        <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
-          <p>Aqui temos o herói do custo-benefício nacional.</p>
-          <p>O Levorin Eruption 29x2.30 é para você que quer fugir do preço do dólar sem colocar sua segurança em risco.</p>
-          <p>Ele tem uma base de arame de aço super estável, perfeita para quem divide a semana entre ir para o trabalho de bike e se enfiar no mato no domingo.</p>
-          <p>O segredo dele são os cravos bem profundos e espaçados.</p>
-          <p>Sabe aquela subida de cascalho solto onde a roda traseira costuma patinar?</p>
-          <p>O Eruption agarra e te joga pra cima.</p>
-          <p>Com 930g, ele não vai te dar troféu de velocidade, mas vai te entregar a resistência de um tanque de guerra por um preço que você consegue pagar sorrindo.</p>
-        </div>
-        <AffiliateCard product={products.find(p => p.id === 'pneu-levorin-eruption')!} />
-        
-        <div className="grid md:grid-cols-2 gap-6 my-12">
-          <div className="bg-emerald-950/20 border border-emerald-900/50 p-6 rounded-xl">
-            <h4 className="text-emerald-400 font-bold mb-4 flex items-center gap-2"><Check className="w-5 h-5" /> Prós</h4>
-            <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Tração bruta em terra batida e cascalho.</li>
-              <li>Você acha fácil em qualquer loja do Brasil.</li>
-              <li>Arame de aço que aguenta muita pancada.</li>
-              <li>Preço justíssimo para renovar os pneus.</li>
-            </ul>
-          </div>
-          <div className="bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
-            <h4 className="text-red-400 font-bold mb-4 flex items-center gap-2"><X className="w-5 h-5" /> Contras</h4>
-            <ul className="space-y-2 text-zinc-300 text-sm">
-              <li>Os 930g seguram um pouco a velocidade da bike.</li>
-              <li>Carcaça de 33 TPI faz ele pular um pouco mais em raízes.</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Produto 5 */}
-        <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve</h3>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
-          <p>Se um Levorin Eruption já é bom para o bolso, comprar o par de uma vez é a jogada de mestre da economia.</p>
+          <p>Se você quer uma solução completa, comprar o par de uma vez é a jogada de mestre da economia.</p>
           <p>Com esse kit, você renova a bicicleta inteira gastando menos do que pagaria em um único pneu de marcas gringas.</p>
           <p>Eles garantem aquela tração bruta tanto na roda de trás (para subir) quanto na da frente (para não escorregar nas curvas de terra).</p>
           <p>O formato 29x2.30 deixa a bike bem "parruda", absorvendo muito mais os solavancos da rua ou do estradão.</p>
@@ -453,6 +419,40 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
             <ul className="space-y-2 text-zinc-300 text-sm">
               <li>Somando os dois, você coloca quase 2kg a mais na bike.</li>
               <li>Cravos altos "amarram" um pouco a bicicleta no asfalto liso.</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Produto 5 */}
+        <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
+          <h3>Pneu Maxxis Rekon Race 29x2.25 Kevlar Exo Tubeless</h3>
+        </div>
+        <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
+          <p>Este modelo é um dos pneus de Cross Country (XC) mais conceituados do mercado, desenvolvido em parceria com campeões mundiais.</p>
+          <p>Sua estrutura semi-slick possui cravos centrais mais baixos e compactos.</p>
+          <p>O que isso significa?</p>
+          <p>Ele reduz drasticamente a resistência ao rolamento em terrenos de terra batida ou cascalho, entregando muita velocidade.</p>
+          <p>Além de veloz, ele é extremamente seguro: a tecnologia EXO Protection adiciona uma camada extra resistente a cortes nas laterais do pneu.</p>
+          <p>Sendo Tubeless Ready, você pode usar selante e rodar com pressões menores, garantindo aderência monstra sem medo de furos.</p>
+          <p>É o pneu definitivo para quem foca em performance e velocidade pura.</p>
+        </div>
+        <AffiliateCard product={products.find(p => p.id === 'pneu-maxxis-rekon-race')!} />
+        
+        <div className="grid md:grid-cols-2 gap-6 my-12">
+          <div className="bg-emerald-950/20 border border-emerald-900/50 p-6 rounded-xl">
+            <h4 className="text-emerald-400 font-bold mb-4 flex items-center gap-2"><Check className="w-5 h-5" /> Prós</h4>
+            <ul className="space-y-2 text-zinc-300 text-sm">
+              <li>Rolagem incrivelmente rápida em terra batida (semi-slick).</li>
+              <li>Proteção lateral EXO contra rasgos de pedras.</li>
+              <li>Pode ser usado sem câmara (Tubeless Ready) para maior aderência.</li>
+              <li>Desenvolvido para competições de altíssimo nível.</li>
+            </ul>
+          </div>
+          <div className="bg-red-950/20 border border-red-900/50 p-6 rounded-xl">
+            <h4 className="text-red-400 font-bold mb-4 flex items-center gap-2"><X className="w-5 h-5" /> Contras</h4>
+            <ul className="space-y-2 text-zinc-300 text-sm">
+              <li>Preço premium justificado pela tecnologia embarcada.</li>
+              <li>Cravos centrais baixos sofrem um pouco em lama muito profunda.</li>
             </ul>
           </div>
         </div>
