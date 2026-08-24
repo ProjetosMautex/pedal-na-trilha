@@ -402,29 +402,20 @@ export const ArtigoFirstAro29: React.FC = () => {
           <p className="text-zinc-400 mb-8 relative z-10">Sua segurança no trânsito não tem preço. Complete seu setup com os itens essenciais:</p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10">
-            {accessories.map((item) => (
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
               <a 
-                key={item.id}
+                key={item.id} 
                 href={item.affiliateUrl}
-                target="_blank"
+                target="_blank" 
                 rel="noopener noreferrer sponsored nofollow"
-                className="group flex flex-col bg-zinc-900 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-all hover:shadow-lg hover:shadow-cyan-900/20"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
               >
-                <div className="aspect-[4/3] bg-zinc-800 relative overflow-hidden flex items-center justify-center p-4">
-                  {item.imageUrl ? (
-                    <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain mix-blend-screen group-hover:scale-110 transition-transform duration-500" />
-                  ) : (
-                    <span className="text-zinc-500 text-xs">Imagem não disponível</span>
-                  )}
-                  <div className="absolute bottom-2 right-2 bg-cyan-600 text-white text-[10px] font-bold px-2 py-0.5 rounded">
-                    ACESSÓRIO
-                  </div>
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
-                <div className="p-4 flex-grow flex flex-col">
-                  <h3 className="text-sm font-bold text-zinc-100 mb-1 group-hover:text-cyan-400 transition-colors leading-tight">{item.name}</h3>
-                  <div className="mt-auto pt-3 flex items-center text-xs text-cyan-500 font-bold group-hover:text-cyan-400">
-                    VER PREÇO <ArrowRight className="w-3 h-3 ml-1 group-hover:translate-x-1 transition-transform" />
-                  </div>
+                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
+                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
+                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
                 </div>
               </a>
             ))}

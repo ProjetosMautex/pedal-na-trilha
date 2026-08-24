@@ -3,7 +3,7 @@ import AffiliateCard from './AffiliateCard';
 import BunnerDoMeio from './BunnerDoMeio';
 import ExitIntentPopup from './ExitIntentPopup';
 import { HelpCircle, ArrowRight, Check, X, Sparkles, ChevronDown, ChevronUp } from 'lucide-react';
-import { products } from '../data/products';
+import { products, accessories } from '../data/products';
 
 export const ArtigoKSWAro29: React.FC = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -422,7 +422,31 @@ export const ArtigoKSWAro29: React.FC = () => {
             ></iframe>
           </div>
         </div>
-
+        
+        {/* ACESSÓRIOS CROSS-SELL */}
+        <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
+          <h3 className="text-xl font-bold text-white mb-6 text-center">Complete seu setup de segurança urbana</h3>
+          <p className="text-zinc-300 text-sm mb-6 text-center">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.affiliateUrl}
+                target="_blank" 
+                rel="noopener noreferrer sponsored nofollow"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
+              >
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                </div>
+                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
+                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
+                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
         {/* FAQ Section */}
         <h2 className="text-2xl font-bold text-white mb-8 mt-16 flex items-center gap-3">
           <HelpCircle className="text-cyan-500 w-8 h-8" />

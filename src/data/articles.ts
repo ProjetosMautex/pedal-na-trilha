@@ -47,5 +47,11 @@ export const articles: Article[] = [
     url: "/bicicleta-gta-aro-29-e-boa",
     image: "/images/blog/1/GTA Start aro 29 21v e boa.webp",
     excerpt: "Descubra se a bicicleta GTA aro 29 é a escolha certa para começar no ciclismo ou se alternativas como a KSW atendem melhor sua rotina."
+  },
+  {
+    title: "Melhor Pneu para Bike Aro 29 (7 Modelos Recomendados)",
+    url: "/melhor-pneu-para-bike-aro-29",
+    image: "/images/blog/1/melhor pneu para bike aro 29.webp",
+    excerpt: "Cansado de perder desempenho, fazer força à toa ou furar câmara toda semana? Descubra como um mecânico escolhe o melhor pneu aro 29 para o seu estilo de pedal!"
   }
 ];

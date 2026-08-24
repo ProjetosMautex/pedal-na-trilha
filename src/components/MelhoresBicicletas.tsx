@@ -526,7 +526,7 @@ export const MelhoresBicicletas: React.FC = () => {
           </h3>
           <p className="text-zinc-300 text-sm mb-6">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
           <div className="flex gap-4 overflow-x-auto pb-4 snap-x">
-            {accessories.map(p => {
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map(p => {
               return (
                 <div key={p.id} className="min-w-[200px] bg-zinc-800 p-4 rounded-xl shrink-0 snap-center flex flex-col justify-between border border-zinc-700 hover:border-cyan-500/50 transition-colors group shadow-lg">
                    <div className="h-32 bg-white rounded-lg mb-3 flex items-center justify-center overflow-hidden p-2">

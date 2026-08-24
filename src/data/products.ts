@@ -152,6 +152,69 @@ export const products: Product[] = [
     affiliateUrl: "https://meli.la/1oUnqHo",
     category: "Iniciantes/Lazer",
     features: ["Cabeamento Interno", "21 Marchas", "Quadro em Alumínio"]
+  },
+  {
+    id: "pneu-paco-nomad",
+    name: "Pneu Paco Nomad 29x2 com Faixa Bege MTB",
+    description: "Visual retrô e ótimo custo-benefício para estradão e passeios.",
+    imageUrl: "/images/blog/1/Pneu Paco Nomad 29x2 com Faixa Bege MTB.webp",
+    affiliateUrl: "https://meli.la/1hBMNsy",
+    category: "Pneu Aro 29",
+    features: ["Faixa bege", "Arame e nylon", "Para asfalto e terra leve"]
+  },
+  {
+    id: "pneu-pirelli-scorpion",
+    name: "Pneu Pirelli Scorpion Pro Kevlar 29x2",
+    description: "Tecnologia Dual Compound e APS anti-furo para trilhas.",
+    imageUrl: "/images/blog/1/Pneu Pirelli Scorpion Pro Kevlar 29x2.webp",
+    affiliateUrl: "https://meli.la/23GuKSQ",
+    category: "Pneu Aro 29",
+    features: ["Kevlar", "Fita APS Anti-furo", "Dual Compound"]
+  },
+  {
+    id: "pneu-maxxis-ikon",
+    name: "Pneu Bike Maxxis Ikon 29x2.20 Dobrável Exo Tubeless",
+    description: "Para quem quer velocidade e proteção EXO.",
+    imageUrl: "/images/blog/1/Pneu Bike Maxxis Ikon 29x2.20 Dobrável Exo Tubeless.webp",
+    affiliateUrl: "https://meli.la/1B6Y2UB",
+    category: "Pneu Aro 29",
+    features: ["Tubeless Ready", "Proteção EXO", "Rápido"]
+  },
+  {
+    id: "pneu-levorin-eruption",
+    name: "Pneu Levorin Eruption 29x2 Banda Leve MTB",
+    description: "Tecnologia premium para quem exige performance máxima e tração bruta.",
+    imageUrl: "/images/blog/1/Pneu Levorin Eruption 29x2 Banda Leve MTB.webp",
+    affiliateUrl: "https://meli.la/1C8m4Rf",
+    category: "Pneu Aro 29",
+    features: ["Banda Leve", "Performance Premium", "Tração Bruta"]
+  },
+  {
+    id: "par-pneus-levorin",
+    name: "Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve",
+    description: "Investimento premium para garantir a estabilidade perfeita em trilhas técnicas.",
+    imageUrl: "/images/blog/1/Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve.webp",
+    affiliateUrl: "https://meli.la/32fUaqf",
+    category: "Pneu Aro 29",
+    features: ["Par Premium", "Banda leve", "Estabilidade total"]
+  },
+  {
+    id: "pneu-kenda-aptor",
+    name: "Pneu Mtb Kenda Aptor K1153 29x2.10 Faixa Marrom",
+    description: "Estilo gringo com faixa marrom para a cidade e terra leve.",
+    imageUrl: "/images/blog/1/Pneu Mtb Kenda Aptor K1153 29x2.10 Faixa Marrom.webp",
+    affiliateUrl: "https://meli.la/1tVZtLo",
+    category: "Pneu Aro 29",
+    features: ["Faixa marrom", "Versátil", "Custo-benefício"]
+  },
+  {
+    id: "pneu-bicicleta-exces",
+    name: "PNEU BICICLETA A29X2 EXCES",
+    description: "A escolha tática para usar a bike na cidade e no lazer.",
+    imageUrl: "/images/blog/1/PNEU BICICLETA A29X2 EXCES.webp",
+    affiliateUrl: "https://meli.la/1ubGtzp",
+    category: "Pneu Aro 29",
+    features: ["Urbano e lazer", "Durável", "Até 50 PSI"]
   }
 ];
 
@@ -178,6 +241,30 @@ export const accessories = [
     description: "Bomba de Ar",
     imageUrl: "/images/blog/1/Bomba de ar portátil.webp",
     affiliateUrl: "https://meli.la/2txj466",
+    category: "Acessórios",
+  },
+  {
+    id: "camara-ar-pirelli",
+    name: "Par Câmara Ar Pirelli Bike Mtb Aro 29",
+    description: "Câmara de ar Pirelli para MTB",
+    imageUrl: "/images/blog/1/Par Câmara Ar Pirelli Bike Mtb Aro 29.webp",
+    affiliateUrl: "https://meli.la/1nWk9Q4",
+    category: "Acessórios",
+  },
+  {
+    id: "fita-antifuro-safetire",
+    name: "Fita Antifuro Safetire 40mm Branca Aro 29 Pneu 2.0 A 2.4 Mtb",
+    description: "Fita antifuro Safetire",
+    imageUrl: "/images/blog/1/Fita Antifuro Safetire 40mm Branca Aro 29 Pneu 2.0 A 2.4 Mtb.webp",
+    affiliateUrl: "https://meli.la/2zHa4vf",
+    category: "Acessórios",
+  },
+  {
+    id: "selante-liquido-tubeless",
+    name: "Selante Líquido Pneu Bike Tubeless",
+    description: "Selante para pneus tubeless",
+    imageUrl: "/images/blog/1/Selante Líquido Pneu Bike Tubeless.webp",
+    affiliateUrl: "https://meli.la/1JUyboz",
     category: "Acessórios",
   }
 ];

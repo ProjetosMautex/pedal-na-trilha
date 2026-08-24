@@ -368,7 +368,7 @@ export const ArtigoGTAAro29: React.FC = () => {
         <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
           <h3 className="text-xl font-bold text-white mb-6 text-center">Itens Indispensáveis para sua Nova Bike</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.map((item) => (
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
               <a 
                 key={item.id} 
                 href={item.affiliateUrl}
