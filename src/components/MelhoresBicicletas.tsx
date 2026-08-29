@@ -700,6 +700,18 @@ export const MelhoresBicicletas: React.FC = () => {
               <p>Procure modelos de rolagem rápida.</p>
               <p>Agora, se a lama e a terra solta forem sua rotina, os cravos agressivos são seus melhores amigos para não perder a frente da bike em curvas.</p>
             </div>
+
+            {/* Cross-Sell: Bomba de Ar Portátil */}
+            <div className="my-8">
+              <div className="mb-6">
+                <img src={accessories.find(p => p.id === 'bomba-ar-portatil')?.imageUrl} alt="Bomba de Ar Portátil" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+              </div>
+              <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
+                <h4 className="text-cyan-400 font-bold mb-2">Pneu Murcho no Meio do Caminho?</h4>
+                <p className="text-zinc-300 text-sm">Não corra o risco de voltar empurrando a bicicleta. Ter uma bomba portátil presa ao quadro salva o seu passeio em caso de pequenos furos (junto com um remendo) ou perda de pressão.</p>
+              </div>
+              <AffiliateCard product={accessories.find(p => p.id === 'bomba-ar-portatil')!} />
+            </div>
           </div>
 
           <div>
@@ -729,6 +741,38 @@ export const MelhoresBicicletas: React.FC = () => {
               <p>Cada quilo a mais cobra seu preço em cada ladeira.</p>
               <p>O alumínio garante essa leveza, mas quadros de aço carbono, embora mais pesados, são resilientes contra grandes impactos.</p>
               <p>Avalie se no seu dia a dia você precisará carregar a bike em escadas, ou se as subidas são predominantes; nesses casos, o alumínio é obrigatório para você não odiar o seu trajeto.</p>
+            </div>
+          </div>
+        
+          <div>
+            <h3 className="text-2xl font-bold text-white mb-4">Segurança e Proteção (Obrigatório)</h3>
+            <div className="space-y-4 prose prose-lg text-zinc-300">
+              <p>Comprar a bicicleta é só o primeiro passo. Sem os itens básicos de segurança, você coloca sua vida e o seu investimento em risco logo na primeira esquina.</p>
+              <p>Use sempre capacete, mesmo em trajetos curtos, e nunca estacione sua bike nova sem um cadeado em U de alta resistência.</p>
+            </div>
+
+            {/* Cross-Sell: Capacete */}
+            <div className="my-8">
+              <div className="mb-6">
+                <img src={accessories.find(p => p.id === 'capacete-absolute')?.imageUrl} alt="Capacete de Ciclismo MTB" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+              </div>
+              <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
+                <h4 className="text-cyan-400 font-bold mb-2">Sua Vida não tem Preço</h4>
+                <p className="text-zinc-300 text-sm">O asfalto não perdoa erros. Um bom capacete com sinalizador de LED embutido garante que você não só proteja a cabeça em quedas, mas também seja visto por motoristas à noite.</p>
+              </div>
+              <AffiliateCard product={accessories.find(p => p.id === 'capacete-absolute')!} />
+            </div>
+
+            {/* Cross-Sell: Cadeado U-Lock */}
+            <div className="my-8">
+              <div className="mb-6">
+                <img src={accessories.find(p => p.id === 'cadeado-ulock')?.imageUrl} alt="Cadeado U-Lock Profissional" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+              </div>
+              <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
+                <h4 className="text-cyan-400 font-bold mb-2">Não deixe sua bike ir embora sem você</h4>
+                <p className="text-zinc-300 text-sm">Cabos de aço comuns são cortados em 3 segundos com um alicate. Para proteger sua bike, o cadeado formato em "U" (U-Lock) de aço maciço é a única opção confiável recomendada pelos ciclistas urbanos.</p>
+              </div>
+              <AffiliateCard product={accessories.find(p => p.id === 'cadeado-ulock')!} />
             </div>
           </div>
         </div>
