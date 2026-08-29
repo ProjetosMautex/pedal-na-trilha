@@ -177,6 +177,9 @@ export const ArtigoKSWAro29: React.FC = () => {
           <p>Conhecer as variações disponíveis é o primeiro passo para você não comprar uma bike de asfalto achando que vai descer montanhas com ela.</p>
 
           <h3>BICICLETA KSW XLT 100 21V SHIMANO (Freio a Disco)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-emerald-400 font-bold">💸 A mais barata que ainda vale a pena comprar</p>
           
           <p>Para quem busca sair do sedentarismo sem esvaziar a conta bancária, a KSW XLT 100 é o ponto de partida ideal.</p>
@@ -301,6 +304,31 @@ export const ArtigoKSWAro29: React.FC = () => {
           <p className="text-center text-sm text-zinc-400 mt-3 italic">Se o seu objetivo é devorar poeira e pegar trilhas, as marcas concorrentes vão te oferecer melhor estrutura e segurança.</p>
         </div>
 
+          {/* ACESSÓRIOS CROSS-SELL */}
+        <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
+          <h3 className="text-xl font-bold text-white mb-6 text-center">Complete seu setup de segurança urbana</h3>
+          <p className="text-zinc-300 text-sm mb-6 text-center">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.affiliateUrl}
+                target="_blank" 
+                rel="noopener noreferrer sponsored nofollow"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
+              >
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                </div>
+                <div className="p-4 text-center flex flex-col items-center">
+                  <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
+                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
           <h2>Sugestão de Alternativa: Caloi Moab e Absolute Nero 4</h2>
           <p>Se as limitações de um modelo de entrada já não te atendem, o mercado oferece máquinas com um refinamento que muda o seu pedal da água para o vinho.</p>
         </div>
@@ -341,6 +369,9 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-amber-400 font-bold">⭐ A Confiança da Marca Clássica para Uso Misto</p>
           
           <p>A Caloi Moab redefine o conceito de mountain bike de entrada porque ela prioriza a integridade estrutural real, e não apenas uma pintura bonita.</p>
@@ -375,6 +406,9 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-12">
           <h3>Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-cyan-400 font-bold">⛰️ Para Engolir Subidas e Trilhas Técnicas</p>
           
           <p>Se você já quer colocar a bike na terra de verdade, a Absolute Nero 4 é um divisor de águas absoluto.</p>
@@ -423,30 +457,7 @@ export const ArtigoKSWAro29: React.FC = () => {
           </div>
         </div>
         
-        {/* ACESSÓRIOS CROSS-SELL */}
-        <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
-          <h3 className="text-xl font-bold text-white mb-6 text-center">Complete seu setup de segurança urbana</h3>
-          <p className="text-zinc-300 text-sm mb-6 text-center">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
-              <a 
-                key={item.id} 
-                href={item.affiliateUrl}
-                target="_blank" 
-                rel="noopener noreferrer sponsored nofollow"
-                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
-              >
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
-                </div>
-                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
-                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
-                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
+        
         {/* FAQ Section */}
         <h2 className="text-2xl font-bold text-white mb-8 mt-16 flex items-center gap-3">
           <HelpCircle className="text-cyan-500 w-8 h-8" />

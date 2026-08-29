@@ -196,8 +196,9 @@ export const ArtigoDroppAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>Visão geral da Dropp Z3 Aro 29</h2>
           <div className="my-8">
-            <img src="/images/blog/1/Bicicleta Dropp Z3 Aro 29.webp" alt="Visão geral da Dropp Z3 Aro 29" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img src={products.find(p => p.id === 'dropp-z3')?.imageUrl} alt={products.find(p => p.id === 'dropp-z3')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
+          
           <p>A Dropp Z3 Aro 29 chega como aquela parceira de entrada estratégica para o mountain bike.</p>
           <p>A ideia dela é simples: equilibrar preço acessível com um pedal que funcione de verdade.</p>
           <p>Ela foi montada tanto para quem foge do trânsito na cidade quanto para quem quer bater um barro no estradão no fim de semana.</p>
@@ -207,6 +208,30 @@ export const ArtigoDroppAro29: React.FC = () => {
         <AffiliateCard product={products.find(p => p.id === 'dropp-z3')!} />
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
+          {/* Cross-Sell Carrossel */}
+        <div className="my-16">
+          <h3 className="text-2xl font-bold text-white mb-6 text-center">Acessórios Essenciais para sua Dropp</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.affiliateUrl}
+                target="_blank" 
+                rel="noopener noreferrer sponsored nofollow"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
+              >
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                </div>
+                <div className="p-4 text-center flex flex-col items-center">
+                  <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
+                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
           <h2>Avaliações reais da Dropp Z3: o que os compradores dizem?</h2>
           <p>O que a galera sente na pele rodando com a Dropp Z3 é o nosso melhor termômetro fora do manual de fábrica.</p>
           <p>A satisfação de quem compra costuma bater exatamente com o uso: quem entende que é uma bike para lazer, curte muito.</p>
@@ -300,6 +325,9 @@ export const ArtigoDroppAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h3>Dropp vs KSW XLT 100</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>A KSW XLT 100 e a Dropp Z3 batem de frente no mercado de entrada para o uso urbano e passeios.</p>
           <p>O grande diferencial da KSW aqui é que ela já vem equipada com um conjunto Shimano (geralmente Tourney de 21 marchas), o que entrega uma durabilidade e precisão nas trocas de marcha consideravelmente superior às peças genéricas da Dropp.</p>
           <p>Se você quer uma bicicleta que não vai desregular a marcha facilmente e que tem um histórico confiável para as ruas, a KSW leva a melhor e vale a pena investir um pouquinho a mais.</p>
@@ -332,29 +360,7 @@ export const ArtigoDroppAro29: React.FC = () => {
           <p>Sim, a bicicleta Dropp é boa para o uso urbano e para quem está dando as primeiras pedaladas sem querer gastar muito dinheiro.</p>
         </div>
 
-        {/* Cross-Sell Carrossel */}
-        <div className="my-16">
-          <h3 className="text-2xl font-bold text-white mb-6 text-center">Acessórios Essenciais para sua Dropp</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
-              <a 
-                key={item.id} 
-                href={item.affiliateUrl}
-                target="_blank" 
-                rel="noopener noreferrer sponsored nofollow"
-                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
-              >
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
-                </div>
-                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
-                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
-                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
+        
 
         {/* FAQ */}
         <div className="my-16">

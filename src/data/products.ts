@@ -76,7 +76,7 @@ export const products: Product[] = [
     description: "Tubo superior rebaixado e alavancas Ez-Fire para segurança urbana.",
 
     imageUrl: "/images/blog/1/Bicicleta Aro 29 Alfameq Pandora Feminina.webp",
-    affiliateUrl: "https://meli.la/2fMfHbA",
+    affiliateUrl: "https://meli.la/1BBSVVM",
     category: "Feminina",
     features: ["Quadro rebaixado", "Ez-Fire", "Suporta 130kg"],
   },
@@ -215,6 +215,107 @@ export const products: Product[] = [
     affiliateUrl: "https://meli.la/1ubGtzp",
     category: "Pneu Aro 29",
     features: ["Urbano e lazer", "Durável", "Até 50 PSI"]
+  },
+  {
+    id: "kit-shimano-tourney-21v",
+    name: "Kit Shimano Tourney 21v Completo",
+    description: "O kit Tourney de 21 marchas é o seu melhor amigo para o dia a dia.",
+    imageUrl: "/images/blog/1/Kit Shimano Tourney 21v Completo.webp",
+    affiliateUrl: "https://meli.la/2Q5piiv",
+    category: "Relação",
+    features: ["Kit completo com movimento central", "Catraca Megarange para subidas", "Durabilidade Shimano"]
+  },
+  {
+    id: "grupo-absolute-wild-2-1x12v",
+    name: "Grupo Absolute Wild 2 Prime Relação 1x12v MTB",
+    description: "O Absolute Wild 2 de 12 marchas é o seu passaporte para o mountain bike moderno.",
+    imageUrl: "/images/blog/1/Grupo Absolute Wild 2 Prime Relação 1x12v MTB.webp",
+    affiliateUrl: "https://meli.la/2JUuwDU",
+    category: "Relação",
+    features: ["Coroa única", "Cubo tradicional (HG)", "Cassete 11-50 dentes"]
+  },
+  {
+    id: "kit-shimano-alivio-m3100-3x9v",
+    name: "Kit Shimano Alivio M3100 3x9v",
+    description: "O Alivio de 27 marchas (3x9) te dá um leque de opções gigantesco.",
+    imageUrl: "/images/blog/1/Kit Shimano Alivio M3100 3x9v.webp",
+    affiliateUrl: "https://meli.la/1aWPDjk",
+    category: "Relação",
+    features: ["Tecnologia Shadow RD", "Movimento central Octalink", "Alta durabilidade"]
+  },
+  {
+    id: "kit-shimano-deore-m6100-gta",
+    name: "Kit Shimano Deore 12v M6100 + Cassete GTA HG",
+    description: "A precisão absurda do câmbio Shimano Deore M6100 misturada com um cassete GTA.",
+    imageUrl: "/images/blog/1/Kit Shimano Deore 12v M6100 + Cassete GTA HG.webp",
+    affiliateUrl: "https://meli.la/2akXzYu",
+    category: "Relação",
+    features: ["Tecnologia Shadow RD+", "Encaixe em cubo comum", "Trocas rápidas"]
+  }
+,
+  {
+    id: "absolute-prime-sl",
+    name: "Suspensão Bike Absolute Prime Sl Aro 29",
+    description: "Suspensão a ar de entrada com excelente custo-benefício.",
+    imageUrl: "/images/blog/1/Suspensão Bike Absolute Prime Sl Aro 29.webp",
+    affiliateUrl: "https://meli.la/1uJ2Cc4",
+    category: "Suspensão"
+  },
+  {
+    id: "rockshox-judy-silver",
+    name: "Garfo Suspensão Aro 29 Rockshox Judy Silver Tk",
+    description: "Garfo premium de alta durabilidade e leitura de terreno.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Aro 29 Rockshox Judy Silver Tk.webp",
+    affiliateUrl: "https://meli.la/2F8fKsu",
+    category: "Suspensão"
+  },
+  {
+    id: "gta-aluminio",
+    name: "Garfo Suspensão Aro 29 Gta Alumínio",
+    description: "Excelente para uso urbano com ombro em alumínio.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Aro 29 Gta Alumínio.webp",
+    affiliateUrl: "https://meli.la/1TzaeQi",
+    category: "Suspensão"
+  },
+  {
+    id: "absolute-330-hlo",
+    name: "Garfo Suspensão Absolute 330-HLO Aro 29",
+    description: "Suspensão a mola confiável com trava no guidão.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Absolute 330-HLO Aro 29 com Trava no Guidão.webp",
+    affiliateUrl: "https://meli.la/1nZy3mk",
+    category: "Suspensão"
+  },
+  {
+    id: "absolute-nero-suspensao",
+    name: "Garfo Suspensão Absolute Nero Aro 29",
+    description: "Garfo parrudo de 32mm para ciclovia e trilha.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Absolute Nero Aro 29 com Trava no Guidão.webp",
+    affiliateUrl: "https://meli.la/1u9NkrX",
+    category: "Suspensão"
+  },
+  {
+    id: "absolute-mxfk-19",
+    name: "Garfo Suspensão Absolute MXFK-19 Aro 29",
+    description: "Feita em aço para durabilidade extrema na cidade.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Absolute MXFK-19 Aro 29 Aheadset Aço.webp",
+    affiliateUrl: "https://meli.la/22fbvuT",
+    category: "Suspensão"
+  },
+  {
+    id: "bikemaxx-trava-ombro",
+    name: "Garfo Suspensão Aro 29 Bikemaxx",
+    description: "Modelo simples com trava no ombro para uso leve.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Aro 29 Bikemaxx Trava Ombro.webp",
+    affiliateUrl: "https://meli.la/1UYcu66",
+    category: "Suspensão"
+  },
+  {
+    id: "cly-harpia",
+    name: "Garfo Suspensão Cly Harpia 29",
+    description: "Suspensão com ajuste de retorno e curso de 100mm.",
+    imageUrl: "/images/blog/1/Garfo Suspensão Cly Harpia 29 Com Trava e Ajuste Freio a Disco.webp",
+    affiliateUrl: "https://meli.la/1jQgrc3",
+    category: "Suspensão"
   }
 ];
 
@@ -266,6 +367,53 @@ export const accessories = [
     imageUrl: "/images/blog/1/Selante Líquido Pneu Bike Tubeless.webp",
     affiliateUrl: "https://meli.la/1JUyboz",
     category: "Acessórios",
+  },
+  {
+    id: "ferramenta-medidora-corrente",
+    name: "Ferramenta Medidora de Desgaste de Corrente",
+    description: "Medidor de desgaste de corrente",
+    imageUrl: "/images/blog/1/Ferramenta Medidora de Desgaste de Corrente.webp",
+    affiliateUrl: "https://meli.la/14D6B1s",
+    category: "Ferramentas",
+  },
+  {
+    id: "lubrificante-corrente-cera",
+    name: "Lubrificantes de Corrente (Base de Cera)",
+    description: "Lubrificante a base de cera",
+    imageUrl: "/images/blog/1/Lubrificantes de Corrente (Base de Cera).webp",
+    affiliateUrl: "https://meli.la/2LtBt7G",
+    category: "Manutenção",
+  },
+  {
+    id: "chave-dinamometrica",
+    name: "Chave Dinamométrica para Bicicleta",
+    description: "Chave dinamométrica",
+    imageUrl: "/images/blog/1/Chave Dinamométrica para Bicicleta.webp",
+    affiliateUrl: "https://meli.la/2tb5bDt",
+    category: "Ferramentas",
+  },
+  {
+    id: "kit-limpeza-desengraxante",
+    name: "Kit de Limpeza (Desengraxante + Escovas)",
+    description: "Kit de limpeza",
+    imageUrl: "/images/blog/1/Kit de Limpeza (Desengraxante + Escovas).webp",
+    affiliateUrl: "https://meli.la/1FyHmya",
+    category: "Manutenção",
+  },
+  {
+    id: "bomba-suspensao-absolute",
+    name: "Bomba de Ar para Suspensão Absolute",
+    description: "Shock pump obrigatória para calibrar garfos a ar.",
+    imageUrl: "/images/blog/1/Bomba De Ar P Suspensão Absolute Wild Alumínio Até 300 Psi.webp",
+    affiliateUrl: "https://meli.la/2tRmADK",
+    category: "Ferramentas"
+  },
+  {
+    id: "adaptador-suspensao-tapered",
+    name: "Adaptador Suspensão Tapered",
+    description: "Adapta garfo espiga reta em quadro cônico.",
+    imageUrl: "/images/blog/1/Adaptador Para Suspensão Normal Em Quadros Tapered.webp",
+    affiliateUrl: "https://meli.la/1wPEPN8",
+    category: "Peças"
   }
 ];
-

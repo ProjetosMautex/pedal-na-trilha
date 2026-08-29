@@ -53,5 +53,18 @@ export const articles: Article[] = [
     url: "/melhor-pneu-para-bike-aro-29",
     image: "/images/blog/1/melhor pneu para bike aro 29.webp",
     excerpt: "Cansado de perder desempenho, fazer força à toa ou furar câmara toda semana? Descubra como um mecânico escolhe o melhor pneu aro 29 para o seu estilo de pedal!"
+  },
+  {
+    title: "Melhor Relação para Bike aro 29 (4 Modelos Recomendados)",
+    url: "/melhor-relacao-para-bike-29",
+    image: "/images/blog/1/melhor-relacao-para-bike-29.webp",
+    excerpt: "Cansado de marchas imprecisas ou subidas sofridas? Nosso mecânico explica como escolher a relação de marchas perfeita para sua bike 29 e transformará seu pedal."
+  },
+  {
+    title: "Melhor suspensão para bike aro 29 (8 Modelos Recomendados)",
+    url: "/melhor-suspensao-para-bike-aro-29",
+    image: "/images/blog/1/melhor-suspensao-para-bike-aro-29.webp",
+    excerpt: "Descubra qual a melhor suspensão para sua aro 29. Compare garfos a ar, mola, RockShox, Absolute e outras opções com excelente custo-benefício."
   }
+
 ];

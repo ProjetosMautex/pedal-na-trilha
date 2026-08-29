@@ -9,19 +9,14 @@ interface AffiliateCardProps {
 export default function AffiliateCard({ product }: AffiliateCardProps) {
   return (
     <div className="bg-[#18181b] rounded-2xl overflow-hidden border border-cyan-900/30 hover:border-cyan-500/50 transition-all group shadow-lg hover:shadow-cyan-900/20 flex flex-col h-full">
-      <div className="relative aspect-video overflow-hidden bg-zinc-800">
-        {/* Placeholder image representation since we don't have real images yet */}
-        <div className="absolute inset-0 flex items-center justify-center text-zinc-500 font-medium">
-          {product.imageUrl ? <img src={product.imageUrl} alt={product.name} className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" /> : 'Imagem do Produto'}
-        </div>
-        <div className="absolute top-3 right-3 bg-cyan-500 text-zinc-950 text-xs font-bold px-2 py-1 rounded-md">
-          {product.category}
-        </div>
-      </div>
-      
       <div className="p-6 flex flex-col flex-grow">
-        <div className="flex gap-1 text-yellow-400 mb-3">
-          {[1,2,3,4,5].map(i => <Star key={i} className="w-4 h-4 fill-current" />)}
+        <div className="flex justify-between items-center mb-3">
+          <div className="flex gap-1 text-yellow-400">
+            {[1,2,3,4,5].map(i => <Star key={i} className="w-4 h-4 fill-current" />)}
+          </div>
+          <div className="bg-cyan-500 text-zinc-950 text-xs font-bold px-2 py-1 rounded-md">
+            {product.category}
+          </div>
         </div>
         
         <h3 className="text-xl font-bold text-zinc-100 mb-2 leading-tight">{product.name}</h3>

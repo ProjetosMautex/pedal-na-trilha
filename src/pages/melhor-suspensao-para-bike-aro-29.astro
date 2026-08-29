@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ArtigoMelhorSuspensaoAro29 from '../components/ArtigoMelhorSuspensaoAro29';
+
+const title = "Melhor suspensão para bike aro 29 (8 Modelos Recomendados) | Pedal na Trilha";
+const description = "Descubra qual a melhor suspensão para sua aro 29. Compare garfos a ar, mola, RockShox, Absolute e outras opções com excelente custo-benefício.";
+const image = "/images/blog/1/melhor-suspensao-para-bike-aro-29.webp";
+---
+
+<Layout 
+  title={title}
+  description={description}
+  image={image}
+>
+  
+  <main className="pt-32 pb-16 min-h-screen bg-[#09090b]">
+    <div className="max-w-7xl mx-auto px-6">
+      <ArtigoMelhorSuspensaoAro29 client:load />
+    </div>
+  </main>
+
+</Layout>

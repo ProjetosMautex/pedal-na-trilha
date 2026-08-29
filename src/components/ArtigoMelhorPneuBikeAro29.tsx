@@ -359,6 +359,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 1 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Paco Nomad 29x2 com Faixa Bege MTB</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-paco-nomad')?.imageUrl} alt={products.find(p => p.id === 'pneu-paco-nomad')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>
@@ -418,6 +421,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 2 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Pirelli Scorpion Pro Kevlar 29x2</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-pirelli-scorpion')?.imageUrl} alt={products.find(p => p.id === 'pneu-pirelli-scorpion')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>Agora a conversa ficou séria.</p>
@@ -477,6 +483,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 3 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Bike Maxxis Ikon 29x2.20 Dobrável Exo Tubeless</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-maxxis-ikon')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-ikon')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>Sabe aquele pneu de corrida?</p>
@@ -531,6 +540,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 4 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8 mt-12">
           <h3>Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'par-pneus-levorin')?.imageUrl} alt={products.find(p => p.id === 'par-pneus-levorin')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>
@@ -592,6 +604,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 5 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Maxxis Rekon Race 29x2.25 Kevlar Exo Tubeless</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>
@@ -656,6 +671,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 6 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Mtb Kenda Aptor K1153 29x2.10 Faixa Marrom</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-kenda-aptor')?.imageUrl} alt={products.find(p => p.id === 'pneu-kenda-aptor')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>
@@ -717,6 +735,9 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         {/* Produto 7 */}
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>PNEU BICICLETA A29X2 EXCES</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'pneu-bicicleta-exces')?.imageUrl} alt={products.find(p => p.id === 'pneu-bicicleta-exces')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <p>

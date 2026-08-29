@@ -167,8 +167,9 @@ export const ArtigoRavaAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>Bicicleta Mountain Bike Rava Pressure 20 Marchas Aro 29 Suspensão Dianteira</h2>
           <div className="my-8">
-            <img src="/images/blog/1/Bicicleta Mountain Bike Rava Pressure 20 Marchas Aro 29 Suspensão Dianteira Freio a Disco Hidráulico.webp" alt="Bicicleta Rava Pressure" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img src={products.find(p => p.id === 'rava-pressure')?.imageUrl} alt={products.find(p => p.id === 'rava-pressure')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
+          
           
           <p>A Rava Pressure promete ser aquela parceira robusta para quem quer entrar no mundo do mountain bike com o pé direito.</p>
           <p>O foco desse projeto é equilibrar a eficiência da mecânica com a durabilidade que você precisa para o uso recreativo, sem viver dentro da oficina.</p>
@@ -244,8 +245,9 @@ export const ArtigoRavaAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h2>Bicicleta Aro 29 Alumínio Rava Up 21v Mtb Urbana Lazer Cor Preto</h2>
           <div className="my-8">
-            <img src="/images/blog/1/Bicicleta Aro 29 Alumínio Rava Up 21v Mtb Urbana Lazer Cor Preto.webp" alt="Bicicleta Rava Up 21v" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img src={products.find(p => p.id === 'rava-up')?.imageUrl} alt={products.find(p => p.id === 'rava-up')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
+          
 
           <p><strong>🏙️ A Opção Honesta para o Uso Diário</strong></p>
           <p>Se o seu foco é largar o transporte público e usar a bike para trabalhar ou passear no parque, a Rava Up 21v foi desenvolvida para aguentar esse tranco.</p>
@@ -329,6 +331,9 @@ export const ArtigoRavaAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>Rava vs Caloi Moab</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>A Caloi Moab é aquele trator com tradição centenária e uma rede de assistência impecável.</p>
           <p>Ela brilha com seu câmbio Microshift de 18 velocidades, que reduz a manutenção frontal.</p>
           <p>Porém, toda essa robustez do alumínio Caloi faz a bike bater quase 18 quilos.</p>
@@ -341,6 +346,9 @@ export const ArtigoRavaAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h3>Rava vs Absolute Nero 4</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>A Absolute Nero 4 tem uma alma agressiva.</p>
           <p>Ela foca em quem quer entrar forte na trilha, usando a coroa única (1x12) que elimina o câmbio dianteiro e acaba com as quedas de corrente em buracos.</p>
           <p>É uma bike esportiva e rápida.</p>
@@ -352,14 +360,7 @@ export const ArtigoRavaAro29: React.FC = () => {
         <AffiliateCard product={products.find(p => p.id === 'absolute-nero-4')!} />
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
-          <h2>Conclusão</h2>
-          <p>Escolher a sua parceira de pedal não precisa ser um labirinto cheio de termos técnicos indecifráveis.</p>
-          <p>A Rava aro 29 provou, na prática, que atua como uma facilitadora da vida do ciclista iniciante.</p>
-          <p>Enquanto outros modelos focam no peso do adesivo importado ou em esportividade agressiva, a Rava garante uma engenharia de manutenção simples, estrutura confortável e um preço que respeita o seu bolso.</p>
-          <p>Ajuste o tamanho do quadro, faça aquela revisão inicial caprichada e transforme o seu trajeto urbano na melhor hora do seu dia.</p>
-        </div>
-
-        {/* Cross-Sell Carrossel */}
+          {/* Cross-Sell Carrossel */}
         <div className="my-16">
           <h3 className="text-2xl font-bold text-white mb-6 text-center">Acessórios Essenciais para sua Rava</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -374,14 +375,23 @@ export const ArtigoRavaAro29: React.FC = () => {
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
                   <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
-                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
+                <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
-                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
+                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-3">Ver Preço →</span>
                 </div>
               </a>
             ))}
           </div>
         </div>
+
+          <h2>Conclusão</h2>
+          <p>Escolher a sua parceira de pedal não precisa ser um labirinto cheio de termos técnicos indecifráveis.</p>
+          <p>A Rava aro 29 provou, na prática, que atua como uma facilitadora da vida do ciclista iniciante.</p>
+          <p>Enquanto outros modelos focam no peso do adesivo importado ou em esportividade agressiva, a Rava garante uma engenharia de manutenção simples, estrutura confortável e um preço que respeita o seu bolso.</p>
+          <p>Ajuste o tamanho do quadro, faça aquela revisão inicial caprichada e transforme o seu trajeto urbano na melhor hora do seu dia.</p>
+        </div>
+
+        
 
         {/* FAQ Section */}
         <div className="mt-16 bg-zinc-900 rounded-2xl border border-zinc-800 p-6 md:p-8">

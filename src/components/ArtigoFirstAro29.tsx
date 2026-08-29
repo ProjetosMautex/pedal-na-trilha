@@ -204,6 +204,9 @@ export const ArtigoFirstAro29: React.FC = () => {
           <p>Vamos desmontar as versões mais buscadas e separar o que é marketing do que realmente funciona na terra.</p>
 
           <h3 id="first-smitt-deore">Bicicleta First Aro 29 Smitt Gold (Câmbio Shimano Deore)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'first-smitt-deore')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-deore')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-emerald-400 font-bold">⭐ A Escolha Certa para Trilhas Longas</p>
           
           <p>Passei um bom tempo regulando o câmbio dessa versão e o que eu vi me animou bastante.</p>
@@ -256,6 +259,9 @@ export const ArtigoFirstAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-12">
           <h3 id="first-smitt-gta">Bicicleta First Aro 29 Smitt Gold (Versão Câmbio GTA 1x12)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'first-smitt-gta')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-gta')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-emerald-400 font-bold">💸 O Custo-Benefício para Começar na Trilha</p>
           
           <p>Sabe aquela bike que parece idêntica à de cima, mas custa consideravelmente menos?</p>
@@ -331,6 +337,9 @@ export const ArtigoFirstAro29: React.FC = () => {
           <p>De um lado temos a robustez histórica da Caloi Moab e do outro a pegada altamente técnica e agressiva da Absolute Nero 4.</p>
 
           <h3 id="caloi-moab">Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>A Moab é como aquele tratorzinho confiável que não te deixa na mão.</p>
           <p>Ela resolveu a vida de muita gente apostando em um conjunto Microshift de 18 marchas.</p>
           <p>Tirar aquele antigo câmbio dianteiro de 3 coroas reduz absurdamente a chance da sua corrente raspar ou cair quando você muda a marcha correndo.</p>
@@ -362,6 +371,9 @@ export const ArtigoFirstAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3 id="absolute-nero-4">Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>Se a Caloi Moab é o trator, a Absolute Nero 4 é para quem tem pressa de ir rápido na trilha técnica.</p>
           <p>O grande trunfo aqui é o sistema 1x12 com apenas uma coroa na frente.</p>
           <p>Isso limpa o guidão, baixa o peso da bike para excelentes 14,8 kg e te dá uma marcha para subir paredes de terra.</p>
@@ -391,36 +403,7 @@ export const ArtigoFirstAro29: React.FC = () => {
           </div>
         </div>
 
-        {/* Carrossel Cross-Sell */}
-        <div className="bg-zinc-800/80 rounded-2xl p-6 sm:p-8 border border-cyan-900/50 my-16 shadow-lg relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
-          
-          <h2 className="text-2xl font-bold text-white mb-2 relative z-10 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-cyan-400" />
-            Complete seu setup de segurança urbana
-          </h2>
-          <p className="text-zinc-400 mb-8 relative z-10">Sua segurança no trânsito não tem preço. Complete seu setup com os itens essenciais:</p>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10">
-            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
-              <a 
-                key={item.id} 
-                href={item.affiliateUrl}
-                target="_blank" 
-                rel="noopener noreferrer sponsored nofollow"
-                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
-              >
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
-                </div>
-                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
-                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
-                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
+        
 
         {/* FAQ */}
         <div className="my-16">
@@ -463,6 +446,37 @@ export const ArtigoFirstAro29: React.FC = () => {
         </div>
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 border-t border-zinc-800 pt-12">
+          {/* Carrossel Cross-Sell */}
+        <div className="bg-zinc-800/80 rounded-2xl p-6 sm:p-8 border border-cyan-900/50 my-16 shadow-lg relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
+          
+          <h2 className="text-2xl font-bold text-white mb-2 relative z-10 flex items-center gap-2">
+            <Sparkles className="w-5 h-5 text-cyan-400" />
+            Complete seu setup de segurança urbana
+          </h2>
+          <p className="text-zinc-400 mb-8 relative z-10">Sua segurança no trânsito não tem preço. Complete seu setup com os itens essenciais:</p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10">
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.affiliateUrl}
+                target="_blank" 
+                rel="noopener noreferrer sponsored nofollow"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
+              >
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                </div>
+                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
+                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
+                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
           <h2>Conclusão</h2>
           <p>Escolher entre a First, Caloi ou Absolute no final do dia é entender para que lado o seu guidão aponta mais.</p>
           <p>Se você quer montar a bike aos poucos e exige uma geometria moderna, a First ganha o jogo.</p>

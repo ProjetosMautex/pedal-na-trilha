@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MelhorRelacaoParaBike29 } from '../components/MelhorRelacaoParaBike29.tsx';
+
+// Aqui você define o SEO da página
+const title = "Melhor Relação para Bike aro 29 (4 Modelos Recomendados)";
+const description = "Cansado de marchas imprecisas ou subidas sofridas? Nosso mecânico explica como escolher a relação de marchas perfeita para sua bike 29 e transformar seu pedal.";
+---
+
+<Layout title={title} description={description}>
+  {/* O client:load é necessário para que os ícones e interações funcionem */}
+  <MelhorRelacaoParaBike29 client:load />
+</Layout>

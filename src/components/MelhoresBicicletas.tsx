@@ -249,6 +249,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Olhando de fora, a Caloi Moab parece apenas mais uma bike urbana, mas descobri um detalhe no alumínio do quadro que muda tudo: ela foi estruturada para durar.</p>
             <p>Sabe aquele medo da bike "desmanchar" ao descer um meio-fio ou pegar uma estrada de terra mais acidentada?</p>
@@ -290,6 +293,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-sm font-bold text-cyan-600 uppercase tracking-widest mb-6">⛰️ Para quem quer encarar Trilhas Pesadas</p>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Se você quer sair do passeio no parque e começar a encarar trilhas de verdade, passei horas dissecando o kit da Absolute Nero 4 e o veredito é um só: a transmissão 1x12 muda a sua vida.</p>
@@ -332,6 +338,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             BICICLETA KSW XLT 100 21V SHIMANO (Freio a Disco)
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p className="text-sm font-bold text-cyan-600 uppercase tracking-widest mb-6">💸 A mais barata que ainda vale a pena comprar</p>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Sempre recebo a pergunta: "Rafael, dá para começar a pedalar sem gastar uma fortuna?".</p>
@@ -403,6 +412,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Caloi Montana 21V
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'caloi-montana')?.imageUrl} alt={products.find(p => p.id === 'caloi-montana')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>A Caloi Montana é como um "tratorzinho urbano".</p>
             <p>Analisando o projeto dela, fica nítido que o foco é te levar do ponto A ao ponto B sem complicação.</p>
@@ -442,6 +454,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Bicicleta Aro 29 Collina 21 Marchas
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'collina-21')?.imageUrl} alt={products.find(p => p.id === 'collina-21')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Se você morre de medo de terminar o primeiro passeio com as costas e as mãos doloridas, a Collina olhou para esse problema.</p>
             <p>O grande diferencial dela logo de cara são as manoplas anatômicas em gel.</p>
@@ -480,6 +495,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Colli Athena Montain Bike
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'colli-athena')?.imageUrl} alt={products.find(p => p.id === 'colli-athena')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Olhando a ficha técnica da Athena, encontrei o detalhe que explica o motivo dela ser tão resistente: o quadro é de aço carbono.</p>
             <p>O que isso muda no seu pedal?</p>
@@ -525,16 +543,24 @@ export const MelhoresBicicletas: React.FC = () => {
             <ShoppingCart size={24} /> Complete seu setup de segurança urbana
           </h3>
           <p className="text-zinc-300 text-sm mb-6">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
-          <div className="flex gap-4 overflow-x-auto pb-4 snap-x">
+<div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map(p => {
               return (
-                <div key={p.id} className="min-w-[200px] bg-zinc-800 p-4 rounded-xl shrink-0 snap-center flex flex-col justify-between border border-zinc-700 hover:border-cyan-500/50 transition-colors group shadow-lg">
-                   <div className="h-32 bg-white rounded-lg mb-3 flex items-center justify-center overflow-hidden p-2">
-                     <img src={p.imageUrl} alt={p.name} className="object-contain w-full h-full group-hover:scale-105 transition-transform duration-500" />
-                   </div>
-                   <p className="text-zinc-100 text-sm font-bold line-clamp-2 min-h-[2.5rem] mb-2">{p.name}</p>
-                   <a href={p.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="mt-auto block text-center text-xs bg-cyan-600 hover:bg-cyan-500 text-white py-2 rounded font-bold transition-colors uppercase tracking-wide">VER PREÇO</a>
-                </div>
+                <a 
+                  key={p.id}
+                  href={p.affiliateUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer sponsored nofollow" 
+                  className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col h-full"
+                >
+                  <div className="aspect-square bg-white flex items-center justify-center p-4">
+                    <img src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  </div>
+                  <div className="p-4 text-center flex flex-col items-center flex-grow justify-between">
+                    <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
+                    <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                  </div>
+                </a>
               );
             })}
           </div>
@@ -549,6 +575,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Bicicleta Aro 29 Alfameq Pandora Feminina
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'alfameq-pandora')?.imageUrl} alt={products.find(p => p.id === 'alfameq-pandora')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Muitas ciclistas me falam sobre a dificuldade e insegurança de parar no semáforo com quadros masculinos muito altos.</p>
             <p>A Alfameq Pandora mata esse problema na raiz com o tubo superior rebaixado.</p>
@@ -588,6 +617,9 @@ export const MelhoresBicicletas: React.FC = () => {
           <h3 className="text-2xl font-bold text-white mb-6 border-l-4 border-cyan-400 pl-4">
             Bicicleta Feminina Aro 29 Absolute Hera
           </h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'absolute-hera')?.imageUrl} alt={products.find(p => p.id === 'absolute-hera')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>A Hera é a escolha de quem quer não apenas rodar na cidade, mas arriscar a primeira trilha leve de final de semana.</p>
             <p>O quadro em alumínio desenhado para a ergonomia feminina evita que você fique excessivamente "esticada" para alcançar o guidão, poupando os seus ombros e pescoço.</p>

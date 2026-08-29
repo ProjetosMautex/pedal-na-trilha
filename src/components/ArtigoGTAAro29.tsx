@@ -170,6 +170,9 @@ export const ArtigoGTAAro29: React.FC = () => {
           <p>Saber que existe uma fábrica nacional por trás da pintura significa que, se você precisar acionar uma garantia ou encontrar uma peça de reposição, o suporte está muito mais perto da sua casa, evitando que sua magrela fique semanas encostada pegando poeira.</p>
 
           <h2>GTA Start aro 29 21v: a porta de entrada da marca</h2>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'gta-start-21v')?.imageUrl} alt={products.find(p => p.id === 'gta-start-21v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>A GTA Start 21v é aquele feijão com arroz bem temperado para quem quer começar a girar sem esvaziar a conta bancária.</p>
           <p>Ela foi pensada para aquele uso curinga: fugir do trânsito na ciclovia de manhã e curtir uma estradinha de terra no domingo.</p>
           <p>O câmbio de 21 marchas te dá aquele fôlego extra para não fritar as pernas nas subidas do bairro, enquanto o alumínio deixa a bike ágil para desviar de buracos.</p>
@@ -295,6 +298,30 @@ export const ArtigoGTAAro29: React.FC = () => {
           <p>O desgaste das peças básicas será tão violento que o barato vai sair caríssimo lá na oficina.</p>
           <p>Use a bike na medida do que o seu roteiro pede.</p>
 
+          {/* ACESSÓRIOS CROSS-SELL */}
+        <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
+          <h3 className="text-xl font-bold text-white mb-6 text-center">Itens Indispensáveis para sua Nova Bike</h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.affiliateUrl}
+                target="_blank" 
+                rel="noopener noreferrer sponsored nofollow"
+                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
+              >
+                <div className="aspect-square bg-white flex items-center justify-center p-4">
+                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                </div>
+                <div className="p-4 text-center flex flex-col items-center">
+                  <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
+                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+
           <h2>Comparação rápida com outras bicicletas aro 29 populares</h2>
           <p>Quando o assunto é bike barata, a maior briga que a gente vê por aí é entre a GTA e a KSW.</p>
           <p>As duas brigam na mesma faixa de preço e prometem basicamente a mesma alegria.</p>
@@ -334,6 +361,9 @@ export const ArtigoGTAAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>GTA vs KSW</h3>
+          <div className="my-8">
+            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+          </div>
           <p>Quando coloco a KSW XLT 100 do lado da GTA, a diferença de estratégia aparece nas peças.</p>
           <p>A GTA foca pesado no acabamento e no quadro de cabos embutidos.</p>
           <p>Já a KSW costuma abrir mão desse visual interno, mas compensa usando câmbios originais da Shimano (linha Tourney).</p>
@@ -364,29 +394,7 @@ export const ArtigoGTAAro29: React.FC = () => {
           </div>
         </div>
 
-        {/* ACESSÓRIOS CROSS-SELL */}
-        <div className="my-16 bg-zinc-900/50 p-6 rounded-2xl border border-zinc-800">
-          <h3 className="text-xl font-bold text-white mb-6 text-center">Itens Indispensáveis para sua Nova Bike</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map((item) => (
-              <a 
-                key={item.id} 
-                href={item.affiliateUrl}
-                target="_blank" 
-                rel="noopener noreferrer sponsored nofollow"
-                className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
-              >
-                <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
-                </div>
-                <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
-                  <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>
-                  <span className="bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md mt-2">Ver Preço →</span>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
+        
 
         {/* FAQ Section */}
         <h2 className="text-2xl font-bold text-white mb-8 mt-16 flex items-center gap-3">
