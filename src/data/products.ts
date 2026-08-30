@@ -154,6 +154,15 @@ export const products: Product[] = [
     features: ["Cabeamento Interno", "21 Marchas", "Quadro em Alumínio"]
   },
   {
+    id: "gti-roma",
+    name: "Bicicleta Aro 29 Gti Roma",
+    description: "A magrela valente para quem está começando, focada em lazer urbano com quadro de alumínio e cabeamento interno.",
+    imageUrl: "/images/blog/1/Bicicleta Aro 29 Gti Roma.webp",
+    affiliateUrl: "https://meli.la/1kviig7",
+    category: "Iniciantes/Urbano",
+    features: ["Quadro de Alumínio", "Cabeamento Interno", "Freio a Disco Mecânico"]
+  },
+  {
     id: "pneu-paco-nomad",
     name: "Pneu Paco Nomad 29x2 com Faixa Bege MTB",
     description: "Visual retrô e ótimo custo-benefício para estradão e passeios.",

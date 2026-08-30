@@ -65,6 +65,12 @@ export const articles: Article[] = [
     url: "/melhor-suspensao-para-bike-aro-29",
     image: "/images/blog/1/melhor-suspensao-para-bike-aro-29.webp",
     excerpt: "Descubra qual a melhor suspensão para sua aro 29. Compare garfos a ar, mola, RockShox, Absolute e outras opções com excelente custo-benefício."
+  },
+  {
+    title: "Bicicleta GTI ROMA Aro 29 é boa Ou Alternativa KSW é melhor?",
+    url: "/bike-gti-roma-aro-29-e-boa",
+    image: "/images/blog/1/bike-gti-roma-aro-29-e-boa.webp",
+    excerpt: "Dúvida entre a GTI Roma ou KSW? Descobri o que realmente muda no seu pedal e qual mountain bike de entrada entrega o melhor custo-benefício. Vem conferir!"
   }
 
 ];
