@@ -71,6 +71,12 @@ export const articles: Article[] = [
     url: "/bike-gti-roma-aro-29-e-boa",
     image: "/images/blog/1/bike-gti-roma-aro-29-e-boa.webp",
     excerpt: "Dúvida entre a GTI Roma ou KSW? Descobri o que realmente muda no seu pedal e qual mountain bike de entrada entrega o melhor custo-benefício. Vem conferir!"
+  },
+  {
+    title: "Melhor guidão para bike aro 29 (10 Modelos Recomendados)",
+    url: "/melhor-guidao-para-bike-aro-29",
+    image: "/images/blog/1/melhor-guidao-para-bike-aro-29.webp",
+    excerpt: "Cansado de dor nas costas ou falta de controle na sua aro 29? O nosso mecânico explica de forma simples como escolher o guidão ideal. Confere as 10 melhores opções e zere suas dores!"
   }
 
 ];

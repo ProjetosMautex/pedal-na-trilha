@@ -91,8 +91,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/gts_pro_m5_card.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_pro_m5_card.webp" 
             alt="Bicicleta GTS Pro M5 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -106,7 +105,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
           <div className="flex items-center justify-center gap-4 text-sm text-zinc-400">
             <span className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-cyan-900/50 flex items-center justify-center border border-cyan-500/30 overflow-hidden">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
               </div>
               Por Rafael Martins
             </span>
@@ -178,7 +177,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -213,7 +212,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>A marca GTS é confiável no mercado de bicicletas?</h2>
           <div className="my-8">
-            <img src="/images/blog/1/gts_reliability.webp" alt="Oficina de bicicletas e peças confiáveis" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_reliability.webp" alt="Oficina de bicicletas e peças confiáveis" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
           </div>
           <p>É normal ter um pé atrás.</p>
           <p>O mercado está cheio de bicicletas de supermercado que parecem naves espaciais, mas desmontam na primeira ladeira.</p>
@@ -224,7 +223,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
 
           <h2>Por que a bicicleta GTS Pro M5 aro 29 chama tanta atenção?</h2>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'gts-pro-m5')?.imageUrl} alt={products.find(p => p.id === 'gts-pro-m5')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'gts-pro-m5')?.imageUrl} alt={products.find(p => p.id === 'gts-pro-m5')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>O que faz essa bike sumir rápido das prateleiras é a receita sem invencionices: ela junta uma posição confortável de pedalar com peças que realmente funcionam.</p>
           <p>Muitas bikes baratinhas testam a paciência do dono porque desregulam a cada esquina. A M5 corta esse mal pela raiz e te entrega estabilidade.</p>
@@ -258,7 +257,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h2>Principais características da bicicleta GTS Pro M5 aro 29</h2>
           <div className="my-8">
-            <img src="/images/blog/1/gts_features.webp" alt="Componentes mecânicos da GTS Pro M5" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_features.webp" alt="Componentes mecânicos da GTS Pro M5" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
           </div>
           <p>A engenharia da GTS Pro M5 foi pensada para facilitar a sua vida.</p>
           <p>Começando pelo esqueleto da magrela: o quadro em alumínio. Ele tira o peso excessivo das suas pernas nas subidas e dá a agilidade necessária para desviar de carros ou pedestres.</p>
@@ -322,7 +321,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
 
           <h2>Compromissos e limitações da Bicicleta GTS PRO M5 Track</h2>
           <div className="my-8">
-            <img src="/images/blog/1/gts_limitations.webp" alt="Limitações da bicicleta em trilhas pesadas" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_limitations.webp" alt="Limitações da bicicleta em trilhas pesadas" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
           </div>
           <p>Essa bicicleta foi desenhada puramente para asfalto e estradões de terra nivelados.</p>
           <p>A suspensão não tem trava nem retorno hidráulico, então ela vai "bater seco" e machucar seu pulso se você pular obstáculos altos.</p>
@@ -342,7 +341,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
@@ -360,7 +359,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
           
           <h3>GTS Pro M5 vs KSW</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>Esse é o clássico duelo de custo-benefício. A KSW (especialmente a XLT 100) geralmente traz câmbios Shimano Tourney de entrada, o que dá uma precisão muito boa nas marchas.</p>
           <p>A GTS, por outro lado, foca na força bruta do quadro, aguentando até 130 kg (enquanto a KSW costuma limitar perto dos 100 kg).</p>
@@ -445,14 +444,14 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
           </div>
           
           <div className="my-8">
-            <img src="/images/blog/1/gts_conclusion.webp" alt="GTS em um ambiente de uso indicado" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_conclusion.webp" alt="GTS em um ambiente de uso indicado" className="w-full rounded-2xl shadow-xl border border-zinc-700 bg-white" />
           </div>
         </div>
 
         {/* SOBRE O AUTOR */}
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-16 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
           </div>
           <div>
             <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>

@@ -23,13 +23,13 @@ export default function CookieConsent() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="text-sm text-zinc-300">
           Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com a nossa{' '}
-          <a href="/politica-de-privacidade" className="text-cyan-400 hover:underline">Política de Privacidade</a>.
+          <a href="/politica-de-privacidade" className="text-cyan-400 underline hover:text-cyan-300">Política de Privacidade</a>.
         </div>
         <div className="flex items-center gap-4 shrink-0">
-          <button onClick={accept} className="bg-cyan-600 hover:bg-cyan-500 text-white px-6 py-2 rounded-lg font-semibold transition-colors text-sm">
+          <button onClick={accept} className="bg-cyan-500 hover:bg-cyan-400 text-zinc-950 px-6 py-2 rounded-lg font-bold transition-colors text-sm">
             Aceitar e Fechar
           </button>
-          <button onClick={() => setShow(false)} className="text-zinc-400 hover:text-white p-2">
+          <button onClick={() => setShow(false)} className="text-zinc-400 hover:text-white p-2" aria-label="Aceitar e Fechar">
             <X className="w-5 h-5" />
           </button>
         </div>

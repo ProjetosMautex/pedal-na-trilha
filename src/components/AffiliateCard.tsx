@@ -34,7 +34,7 @@ export default function AffiliateCard({ product }: AffiliateCardProps) {
         )}
         
         <div className="mt-auto pt-4 border-t border-zinc-700/50 flex flex-col">
-          <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-cyan-600 hover:bg-cyan-500 transition-colors text-white font-bold uppercase tracking-wide shadow-lg" aria-label={`Ver oferta de ${product.name}`}>
+          <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="flex items-center justify-center gap-2 w-full py-3 rounded-lg bg-cyan-500 hover:bg-cyan-400 transition-colors text-zinc-950 font-bold uppercase tracking-wide shadow-lg" aria-label={`Ver oferta de ${product.name}`}>
             <ShoppingCart className="w-5 h-5" />
             CLIQUE AQUI PARA VER O PREÇO
           </a>

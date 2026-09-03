@@ -147,8 +147,7 @@ export default function About() {
           {authors.map((author, index) => (
             <div key={index} className="bg-[#18181b] p-6 sm:p-8 rounded-xl border border-cyan-900/30 my-8 flex flex-col md:flex-row gap-8 items-start hover:border-cyan-500/50 transition-colors">
               <a href={`/author/${author.slug}`} className="shrink-0 mx-auto md:mx-0 group block">
-                <img 
-                  src={author.imageUrl} 
+                <img loading="lazy" width="800" height="600" src={author.imageUrl} 
                   alt={`Foto de ${author.name}`} 
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 group-hover:border-cyan-500 transition-colors shadow-xl"
                 />

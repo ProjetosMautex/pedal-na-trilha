@@ -21,8 +21,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/melhor-relacao-para-bike-29.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/melhor-relacao-para-bike-29.webp" 
             alt="Melhor Relação para Bike aro 29" 
             className="w-full h-full object-cover opacity-30"
           />
@@ -37,7 +36,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
             <div className="flex items-center gap-2">
               <span>Por</span>
               <a href="/author/rafael-martins" className="flex items-center gap-2 hover:text-cyan-400 transition-colors font-semibold group">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border-2 border-transparent group-hover:border-cyan-400 transition-colors" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border-2 border-transparent group-hover:border-cyan-400 transition-colors" />
                 Rafael Martins
               </a>
             </div>
@@ -121,7 +120,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Produto</span>
                           )}
@@ -169,7 +168,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
             Kit Shimano Tourney 21v Completo
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'kit-shimano-tourney-21v')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-tourney-21v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'kit-shimano-tourney-21v')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-tourney-21v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Se a sua ideia é ressuscitar aquela bike de passeio ou ir para o trabalho sem gastar uma fortuna, o kit Tourney de 21 marchas é o seu melhor amigo.</p>
@@ -210,7 +209,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
             Grupo Absolute Wild 2 Prime Relação 1x12v MTB
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'grupo-absolute-wild-2-1x12v')?.imageUrl} alt={products.find(p => p.id === 'grupo-absolute-wild-2-1x12v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'grupo-absolute-wild-2-1x12v')?.imageUrl} alt={products.find(p => p.id === 'grupo-absolute-wild-2-1x12v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Sente que a bike está ultrapassada?</p>
@@ -254,7 +253,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
             Kit Shimano Alivio M3100 3x9v
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'kit-shimano-alivio-m3100-3x9v')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-alivio-m3100-3x9v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'kit-shimano-alivio-m3100-3x9v')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-alivio-m3100-3x9v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Você é do tipo que usa a bike para viajar, roda no asfalto a semana toda e pega estrada de terra no domingo?</p>
@@ -299,7 +298,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
             Kit Shimano Deore 12v M6100 + Cassete GTA HG
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'kit-shimano-deore-m6100-gta')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-deore-m6100-gta')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'kit-shimano-deore-m6100-gta')?.imageUrl} alt={products.find(p => p.id === 'kit-shimano-deore-m6100-gta')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Quer o funcionamento de uma bike de competição sem ter que trocar as suas rodas?</p>
@@ -355,7 +354,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
                 >
                   <div className="aspect-square bg-white flex items-center justify-center p-4">
-                    <img src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                    <img loading="lazy" width="800" height="600" src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                   </div>
                   <div className="p-4 text-center flex flex-col items-center">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
@@ -436,7 +435,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
         </h2>
         
         <div className="my-10 text-center">
-          <img src="/images/blog/1/manutencao-corrente.webp" alt="Manutenção e troca de corrente" className="w-full rounded-xl shadow-lg border border-zinc-700" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/manutencao-corrente.webp" alt="Manutenção e troca de corrente" className="w-full rounded-xl shadow-lg border border-zinc-700" />
         </div>
 
         <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none mb-12">
@@ -516,7 +515,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
         {/* SOBRE O AUTOR */}
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
           </div>
           <div>
             <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>

@@ -77,8 +77,7 @@ export const ArtigoDroppAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/dropp_card.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/dropp_card.webp" 
             alt="Bicicleta Dropp Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -92,7 +91,7 @@ export const ArtigoDroppAro29: React.FC = () => {
           <div className="flex items-center justify-center gap-4 text-sm text-zinc-400">
             <span className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-full bg-cyan-900/50 flex items-center justify-center border border-cyan-500/30 overflow-hidden">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
               </div>
               Por Rafael Martins
             </span>
@@ -161,7 +160,7 @@ export const ArtigoDroppAro29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -196,7 +195,7 @@ export const ArtigoDroppAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>Visão geral da Dropp Z3 Aro 29</h2>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'dropp-z3')?.imageUrl} alt={products.find(p => p.id === 'dropp-z3')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'dropp-z3')?.imageUrl} alt={products.find(p => p.id === 'dropp-z3')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <p>A Dropp Z3 Aro 29 chega como aquela parceira de entrada estratégica para o mountain bike.</p>
@@ -221,7 +220,7 @@ export const ArtigoDroppAro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
@@ -274,7 +273,7 @@ export const ArtigoDroppAro29: React.FC = () => {
 
           <h2>Conhecendo a marca Dropp</h2>
           <div className="my-8">
-            <img src="/images/blog/1/dropp_brand.webp" alt="Quadro Dropp e componentes" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/dropp_brand.webp" alt="Quadro Dropp e componentes" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           </div>
           <p>Nascida em 2015 lá em Arapongas (PR), a Dropp focou suas forças no mercado de entrada para colocar mais brasileiros para pedalar.</p>
           <p>Eles operam montando os próprios quadros — tanto de aço quanto de alumínio — e misturando componentes deles com peças de fora.</p>
@@ -284,7 +283,7 @@ export const ArtigoDroppAro29: React.FC = () => {
 
           <h2>Afinal, a bicicleta Dropp é boa?</h2>
           <div className="my-8">
-            <img src="/images/blog/1/dropp_outdoor.webp" alt="Dropp ao ar livre em um estradão de terra" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/dropp_outdoor.webp" alt="Dropp ao ar livre em um estradão de terra" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           </div>
           <p>Para bater o martelo na Dropp Z3, a gente precisa olhar além da pintura bonita e ver quem são as rivais dela de prateleira.</p>
           <p>O cenário é grande, e entender os detalhes mecânicos que separam essa bike de outras da mesma categoria é o que vai te mostrar se ela aguenta o seu ritmo ou se vai pedir arrego.</p>
@@ -326,7 +325,7 @@ export const ArtigoDroppAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h3>Dropp vs KSW XLT 100</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>A KSW XLT 100 e a Dropp Z3 batem de frente no mercado de entrada para o uso urbano e passeios.</p>
           <p>O grande diferencial da KSW aqui é que ela já vem equipada com um conjunto Shimano (geralmente Tourney de 21 marchas), o que entrega uma durabilidade e precisão nas trocas de marcha consideravelmente superior às peças genéricas da Dropp.</p>
@@ -405,7 +404,7 @@ export const ArtigoDroppAro29: React.FC = () => {
         {/* SOBRE O AUTOR */}
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-16 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
           </div>
           <div>
             <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>

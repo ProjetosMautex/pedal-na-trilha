@@ -98,8 +98,7 @@ export const BlogContent: React.FC = () => {
           {currentArticles.map((item, index) => (
             <article key={index} className="bg-[#18181b] rounded-2xl shadow-lg overflow-hidden hover:shadow-cyan-900/20 transition-all duration-300 border border-cyan-900/30 flex flex-col h-full group hover:border-cyan-500/50">
               <div className="relative h-56 overflow-hidden bg-zinc-800">
-                <img 
-                  src={item.image || 'https://placehold.co/800x533/18181b/22d3ee?text=Bicicleta+Aro+29'} 
+                <img loading="lazy" width="800" height="600" src={item.image || 'https://placehold.co/800x533/18181b/22d3ee?text=Bicicleta+Aro+29'} 
                   alt={item.title}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"

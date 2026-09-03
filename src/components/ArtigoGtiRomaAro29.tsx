@@ -15,8 +15,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/bike-gti-roma-aro-29-e-boa.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/bike-gti-roma-aro-29-e-boa.webp" 
             alt="Bicicleta GTI Roma Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -31,7 +30,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
             <span className="flex items-center gap-2">
               <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity">
                 <div className="w-8 h-8 rounded-full bg-cyan-900/50 flex items-center justify-center border border-cyan-500/30 overflow-hidden inline-block align-middle mr-2">
-                  <img src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
+                  <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael" className="w-full h-full object-cover" />
                 </div>
                 Por Rafael Martins
               </a>
@@ -101,7 +100,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -136,7 +135,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>Bicicleta Aro 29 Gti Roma</h3>
           <div className="my-8">
-            <img src="/images/blog/1/Bicicleta Aro 29 Gti Roma.webp" alt="Bicicleta Aro 29 Gti Roma" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/Bicicleta Aro 29 Gti Roma.webp" alt="Bicicleta Aro 29 Gti Roma" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
 
           <h2>Visão geral da GTI ROMA Aro 29</h2>
@@ -153,7 +152,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
           <p>Mas o segredo da durabilidade mora nos detalhes do chassi.</p>
 
           <div className="my-8">
-            <img src="/images/blog/1/quadro-cabeamento-interno.webp" alt="Detalhe do cabeamento interno do quadro de alumínio" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/quadro-cabeamento-interno.webp" alt="Detalhe do cabeamento interno do quadro de alumínio" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           </div>
 
           <h2>Quadro</h2>
@@ -196,7 +195,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <div className="my-8">
-            <img src="/images/blog/1/freio-disco-mecanico.webp" alt="Freio a disco mecânico sob chuva" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/freio-disco-mecanico.webp" alt="Freio a disco mecânico sob chuva" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           </div>
 
           <h2>Sistema de Freios</h2>
@@ -232,7 +231,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-16">
           <h2>GTI ROMA vs KSW XLT 100</h2>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>Aqui o bicho pega no balcão da loja.</p>
           <p>Colocar a GTI Roma do lado da KSW XLT 100 é briga boa, já que as duas batem de frente no preço.</p>
@@ -277,7 +276,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
@@ -325,7 +324,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-16 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
             <a href="/author/rafael-martins">
-              <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl cursor-pointer" />
+              <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl cursor-pointer" />
             </a>
           </div>
           <div>

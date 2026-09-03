@@ -44,8 +44,7 @@ export const ArtigoKSWAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/principal_ksw.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/principal_ksw.webp" 
             alt="Bicicleta KSW Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -59,7 +58,7 @@ export const ArtigoKSWAro29: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-gray-300 text-sm md:text-base">
             <div className="flex items-center gap-2">
               <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
               </a>
               <a href="/author/rafael-martins" className="hover:text-cyan-400 transition-colors">Por Rafael Martins</a>
             </div>
@@ -137,7 +136,7 @@ export const ArtigoKSWAro29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -178,7 +177,7 @@ export const ArtigoKSWAro29: React.FC = () => {
 
           <h3>BICICLETA KSW XLT 100 21V SHIMANO (Freio a Disco)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-emerald-400 font-bold">💸 A mais barata que ainda vale a pena comprar</p>
           
@@ -216,7 +215,7 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         {/* Detalhe Imagem */}
         <div className="my-12">
-          <img src="/images/blog/1/detalhe_shimano_ksw.webp" alt="Detalhe do Câmbio Shimano KSW" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/detalhe_shimano_ksw.webp" alt="Detalhe do Câmbio Shimano KSW" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           <p className="text-center text-sm text-zinc-400 mt-3 italic">O câmbio Shimano Tourney garante a confiabilidade mínima para você não ficar a pé no meio do caminho.</p>
         </div>
 
@@ -243,7 +242,7 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         {/* Imagem de Uso Urbano */}
         <div className="my-12">
-          <img src="/images/blog/1/ksw_urbana.webp" alt="Ciclista pedalando no asfalto com uso urbano" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/ksw_urbana.webp" alt="Ciclista pedalando no asfalto com uso urbano" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           <p className="text-center text-sm text-zinc-400 mt-3 italic">Para asfalto, ciclovias e parques, o perfil de uso urbano da KSW oferece muito conforto.</p>
         </div>
 
@@ -300,7 +299,7 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         {/* Imagem de Trilha/Upgrade */}
         <div className="my-12">
-          <img src="/images/blog/1/ksw_trilha.webp" alt="Ciclista pedalando em estradão de terra" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/ksw_trilha.webp" alt="Ciclista pedalando em estradão de terra" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
           <p className="text-center text-sm text-zinc-400 mt-3 italic">Se o seu objetivo é devorar poeira e pegar trilhas, as marcas concorrentes vão te oferecer melhor estrutura e segurança.</p>
         </div>
 
@@ -318,7 +317,7 @@ export const ArtigoKSWAro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
@@ -370,7 +369,7 @@ export const ArtigoKSWAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-amber-400 font-bold">⭐ A Confiança da Marca Clássica para Uso Misto</p>
           
@@ -407,7 +406,7 @@ export const ArtigoKSWAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-12">
           <h3>Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-cyan-400 font-bold">⛰️ Para Engolir Subidas e Trilhas Técnicas</p>
           
@@ -507,7 +506,7 @@ export const ArtigoKSWAro29: React.FC = () => {
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
             <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity block">
-              <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+              <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
             </a>
           </div>
           <div>

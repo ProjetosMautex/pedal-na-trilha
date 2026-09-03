@@ -98,8 +98,7 @@ export const MelhoresBicicletas: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/principal.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/principal.webp" 
             alt="Bicicleta Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -135,7 +134,7 @@ export const MelhoresBicicletas: React.FC = () => {
         <div className="my-8 p-6 bg-gradient-to-br from-zinc-800 to-zinc-900 text-white rounded-2xl shadow-xl border border-zinc-700">
           <div className="flex items-center gap-3 mb-4">
             <HelpCircle className="text-cyan-400 w-6 h-6 animate-pulse" />
-            <h3 className="text-xl font-bold">Simulador Rápido: Onde você vai pedalar na maior parte do tempo?</h3>
+            <h2 className="text-xl font-bold">Simulador Rápido: Onde você vai pedalar na maior parte do tempo?</h2>
           </div>
           <p className="text-zinc-300 text-sm mb-4">Selecione uma opção para ver a indicação ideal:</p>
           
@@ -196,7 +195,7 @@ export const MelhoresBicicletas: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -250,7 +249,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Olhando de fora, a Caloi Moab parece apenas mais uma bike urbana, mas descobri um detalhe no alumínio do quadro que muda tudo: ela foi estruturada para durar.</p>
@@ -294,7 +293,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-sm font-bold text-cyan-600 uppercase tracking-widest mb-6">⛰️ Para quem quer encarar Trilhas Pesadas</p>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
@@ -339,7 +338,7 @@ export const MelhoresBicicletas: React.FC = () => {
             BICICLETA KSW XLT 100 21V SHIMANO (Freio a Disco)
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-sm font-bold text-cyan-600 uppercase tracking-widest mb-6">💸 A mais barata que ainda vale a pena comprar</p>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
@@ -376,7 +375,7 @@ export const MelhoresBicicletas: React.FC = () => {
           </div>
           
           <div className="my-12">
-            <img src="/images/blog/1/bike_trilha.webp" alt="Bike na trilha" className="w-full rounded-xl shadow-lg border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/bike_trilha.webp" alt="Bike na trilha" className="w-full rounded-xl shadow-lg border border-zinc-700" />
           </div>
 
           {/* VÍDEO DO YOUTUBE */}
@@ -413,7 +412,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Caloi Montana 21V
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'caloi-montana')?.imageUrl} alt={products.find(p => p.id === 'caloi-montana')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'caloi-montana')?.imageUrl} alt={products.find(p => p.id === 'caloi-montana')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>A Caloi Montana é como um "tratorzinho urbano".</p>
@@ -455,7 +454,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Bicicleta Aro 29 Collina 21 Marchas
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'collina-21')?.imageUrl} alt={products.find(p => p.id === 'collina-21')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'collina-21')?.imageUrl} alt={products.find(p => p.id === 'collina-21')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Se você morre de medo de terminar o primeiro passeio com as costas e as mãos doloridas, a Collina olhou para esse problema.</p>
@@ -496,7 +495,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Colli Athena Montain Bike
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'colli-athena')?.imageUrl} alt={products.find(p => p.id === 'colli-athena')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'colli-athena')?.imageUrl} alt={products.find(p => p.id === 'colli-athena')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Olhando a ficha técnica da Athena, encontrei o detalhe que explica o motivo dela ser tão resistente: o quadro é de aço carbono.</p>
@@ -533,7 +532,7 @@ export const MelhoresBicicletas: React.FC = () => {
           </div>
           
           <div className="my-12">
-            <img src="/images/blog/1/bike_urbana.webp" alt="Bicicleta Urbana" className="w-full rounded-xl shadow-lg border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/bike_urbana.webp" alt="Bicicleta Urbana" className="w-full rounded-xl shadow-lg border border-zinc-700" />
           </div>
         </section>
 
@@ -554,7 +553,7 @@ export const MelhoresBicicletas: React.FC = () => {
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col h-full"
                 >
                   <div className="aspect-square bg-white flex items-center justify-center p-4">
-                    <img src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                    <img loading="lazy" width="800" height="600" src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                   </div>
                   <div className="p-4 text-center flex flex-col items-center flex-grow justify-between">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
@@ -576,7 +575,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Bicicleta Aro 29 Alfameq Pandora Feminina
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'alfameq-pandora')?.imageUrl} alt={products.find(p => p.id === 'alfameq-pandora')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'alfameq-pandora')?.imageUrl} alt={products.find(p => p.id === 'alfameq-pandora')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Muitas ciclistas me falam sobre a dificuldade e insegurança de parar no semáforo com quadros masculinos muito altos.</p>
@@ -618,7 +617,7 @@ export const MelhoresBicicletas: React.FC = () => {
             Bicicleta Feminina Aro 29 Absolute Hera
           </h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-hera')?.imageUrl} alt={products.find(p => p.id === 'absolute-hera')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-hera')?.imageUrl} alt={products.find(p => p.id === 'absolute-hera')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>A Hera é a escolha de quem quer não apenas rodar na cidade, mas arriscar a primeira trilha leve de final de semana.</p>
@@ -677,7 +676,7 @@ export const MelhoresBicicletas: React.FC = () => {
               <p className="text-cyan-900">Não compre pelo visual antes de checar o tamanho do quadro! Um quadro 15" atende pessoas de 1,50m a 1,60m. Quadros 17" vão de 1,60m a 1,75m, e 19" para quem tem 1,75m a 1,85m. Usar o quadro errado causa dores crônicas na lombar e joelhos.</p>
             </div>
             
-            <img src="/images/blog/1/bike_fit.webp" alt="Medidas da Bicicleta" className="w-full rounded-xl shadow-lg border border-zinc-700 mt-6" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/bike_fit.webp" alt="Medidas da Bicicleta" className="w-full rounded-xl shadow-lg border border-zinc-700 mt-6" />
           </div>
 
           <div>
@@ -704,7 +703,7 @@ export const MelhoresBicicletas: React.FC = () => {
             {/* Cross-Sell: Bomba de Ar Portátil */}
             <div className="my-8">
               <div className="mb-6">
-                <img src={accessories.find(p => p.id === 'bomba-ar-portatil')?.imageUrl} alt="Bomba de Ar Portátil" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+                <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'bomba-ar-portatil')?.imageUrl} alt="Bomba de Ar Portátil" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
               </div>
               <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
                 <h4 className="text-cyan-400 font-bold mb-2">Pneu Murcho no Meio do Caminho?</h4>
@@ -754,7 +753,7 @@ export const MelhoresBicicletas: React.FC = () => {
             {/* Cross-Sell: Capacete */}
             <div className="my-8">
               <div className="mb-6">
-                <img src={accessories.find(p => p.id === 'capacete-absolute')?.imageUrl} alt="Capacete de Ciclismo MTB" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+                <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'capacete-absolute')?.imageUrl} alt="Capacete de Ciclismo MTB" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
               </div>
               <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
                 <h4 className="text-cyan-400 font-bold mb-2">Sua Vida não tem Preço</h4>
@@ -766,7 +765,7 @@ export const MelhoresBicicletas: React.FC = () => {
             {/* Cross-Sell: Cadeado U-Lock */}
             <div className="my-8">
               <div className="mb-6">
-                <img src={accessories.find(p => p.id === 'cadeado-ulock')?.imageUrl} alt="Cadeado U-Lock Profissional" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+                <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'cadeado-ulock')?.imageUrl} alt="Cadeado U-Lock Profissional" className="w-full max-h-[350px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
               </div>
               <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
                 <h4 className="text-cyan-400 font-bold mb-2">Não deixe sua bike ir embora sem você</h4>
@@ -821,7 +820,7 @@ export const MelhoresBicicletas: React.FC = () => {
         {/* SOBRE O AUTOR */}
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
           </div>
           <div>
             <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>

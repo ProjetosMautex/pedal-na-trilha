@@ -66,8 +66,7 @@ export const ArtigoFirstAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/first_card.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/first_card.webp" 
             alt="Bicicleta First Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -81,7 +80,7 @@ export const ArtigoFirstAro29: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-gray-300 text-sm md:text-base">
             <div className="flex items-center gap-2">
               <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
               </a>
               <a href="/author/rafael-martins" className="hover:text-cyan-400 transition-colors">Por Rafael Martins</a>
             </div>
@@ -162,7 +161,7 @@ export const ArtigoFirstAro29: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Bicicleta</span>
                           )}
@@ -205,7 +204,7 @@ export const ArtigoFirstAro29: React.FC = () => {
 
           <h3 id="first-smitt-deore">Bicicleta First Aro 29 Smitt Gold (Câmbio Shimano Deore)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'first-smitt-deore')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-deore')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'first-smitt-deore')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-deore')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-emerald-400 font-bold">⭐ A Escolha Certa para Trilhas Longas</p>
           
@@ -260,7 +259,7 @@ export const ArtigoFirstAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12 mt-12">
           <h3 id="first-smitt-gta">Bicicleta First Aro 29 Smitt Gold (Versão Câmbio GTA 1x12)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'first-smitt-gta')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-gta')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'first-smitt-gta')?.imageUrl} alt={products.find(p => p.id === 'first-smitt-gta')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p className="text-emerald-400 font-bold">💸 O Custo-Benefício para Começar na Trilha</p>
           
@@ -298,7 +297,7 @@ export const ArtigoFirstAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>Sobre a Marca First: Vale a Confiança?</h2>
           <div className="my-8">
-            <img src="/images/blog/1/first_trilha_action.webp" alt="Ciclista de mountain bike em alta velocidade descendo uma trilha na floresta" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/first_trilha_action.webp" alt="Ciclista de mountain bike em alta velocidade descendo uma trilha na floresta" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
             <p className="text-center text-sm text-zinc-400 mt-3 italic">As bicicletas First entregam geometria atualizada que garante controle e segurança mesmo nas trilhas mais difíceis.</p>
           </div>
           <p>Diferente das marcas globais gigantescas, a First foca no ciclista raiz brasileiro.</p>
@@ -312,7 +311,7 @@ export const ArtigoFirstAro29: React.FC = () => {
           <p>Eles querem que você tenha segurança para desbravar seus horizontes no fim de semana e robustez para usar a bike como meio de transporte diário, unindo saúde e conexão com o ambiente sem quebrar o seu bolso.</p>
 
           <div className="my-8">
-            <img src="/images/blog/1/first_smitt_gta.webp" alt="Detalhe do cassete GTA 1x12 em uma bicicleta" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+            <img loading="lazy" width="800" height="600" src="/images/blog/1/first_smitt_gta.webp" alt="Detalhe do cassete GTA 1x12 em uma bicicleta" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
             <p className="text-center text-sm text-zinc-400 mt-3 italic">Com o sistema 1x12, a First limpa o visual da bike e te dá marchas perfeitas para escalada de montanhas.</p>
           </div>
 
@@ -338,7 +337,7 @@ export const ArtigoFirstAro29: React.FC = () => {
 
           <h3 id="caloi-moab">Caloi Bicicleta Moab Aro 29 (18 Vel. Microshift)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'caloi-moab')?.imageUrl} alt={products.find(p => p.id === 'caloi-moab')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>A Moab é como aquele tratorzinho confiável que não te deixa na mão.</p>
           <p>Ela resolveu a vida de muita gente apostando em um conjunto Microshift de 18 marchas.</p>
@@ -372,7 +371,7 @@ export const ArtigoFirstAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3 id="absolute-nero-4">Bicicleta Aro 29 Absolute Nero 4 (1x12 Hidráulico)</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-nero-4')?.imageUrl} alt={products.find(p => p.id === 'absolute-nero-4')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>Se a Caloi Moab é o trator, a Absolute Nero 4 é para quem tem pressa de ir rápido na trilha técnica.</p>
           <p>O grande trunfo aqui é o sistema 1x12 com apenas uma coroa na frente.</p>
@@ -466,7 +465,7 @@ export const ArtigoFirstAro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center justify-between h-[120px]">
                   <h4 className="text-zinc-100 font-bold text-sm">{item.name}</h4>

@@ -16,7 +16,7 @@ export default function HomeContent() {
             Descubra as melhores bicicletas aro 29 do mercado. Análises detalhadas, comparativos, avaliações de marcas e guias completos para ajudar você a fazer a melhor escolha.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/blog" className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-white bg-cyan-600 hover:bg-cyan-500 transition-colors shadow-[0_0_20px_rgba(16,185,129,0.3)]">
+            <a href="/blog" className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold rounded-xl text-zinc-950 bg-cyan-500 hover:bg-cyan-500 transition-colors shadow-[0_0_20px_rgba(16,185,129,0.3)]">
               Acessar o Blog
             </a>
           </div>
@@ -66,8 +66,7 @@ export default function HomeContent() {
             {articles.slice(0, 6).map((item, index) => (
               <article key={index} className="bg-[#18181b] rounded-2xl shadow-lg overflow-hidden hover:shadow-cyan-900/20 transition-all duration-300 border border-cyan-900/30 flex flex-col h-full group hover:border-cyan-500/50">
                 <div className="relative h-56 overflow-hidden bg-zinc-800">
-                  <img 
-                    src={item.image || 'https://placehold.co/800x533/18181b/22d3ee?text=Bicicleta+Aro+29'} 
+                  <img loading="lazy" width="800" height="600" src={item.image || 'https://placehold.co/800x533/18181b/22d3ee?text=Bicicleta+Aro+29'} 
                     alt={item.title}
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"

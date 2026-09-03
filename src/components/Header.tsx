@@ -67,9 +67,10 @@ export default function Header() {
             </button>
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-zinc-300 hover:text-cyan-400 focus:outline-none"
+              className="text-zinc-300 hover:text-cyan-400 focus:outline-none font-bold tracking-wider text-sm flex items-center"
+              aria-label={isOpen ? "Fechar Menu" : "Abrir Menu"}
             >
-              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isOpen ? <X className="w-6 h-6" /> : "MENU"}
             </button>
           </div>
         </div>

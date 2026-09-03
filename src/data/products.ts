@@ -325,6 +325,86 @@ export const products: Product[] = [
     imageUrl: "/images/blog/1/Garfo Suspensão Cly Harpia 29 Com Trava e Ajuste Freio a Disco.webp",
     affiliateUrl: "https://meli.la/1jQgrc3",
     category: "Suspensão"
+  },
+  {
+    id: "guidao-lunje-780mm",
+    name: "Guidão MTB Alumínio Curvo XC 780mm (Preto)",
+    description: "Guidão curvo de 780mm que levanta o tronco e tira a pressão dos punhos, ideal para maior controle em trilhas agressivas.",
+    imageUrl: "/images/blog/1/Guidão MTB Alumínio Curvo XC 780mm (Preto).webp",
+    affiliateUrl: "https://meli.la/2TSXABG",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-shiver-flat-760mm",
+    name: "Guidão Shiver MTB Flat Reto 760mm Alumínio",
+    description: "Guidão reto super leve de 760mm focado em performance pura, jogando o peso para frente em subidas íngremes.",
+    imageUrl: "/images/blog/1/Guidão Shiver MTB Flat Reto 760mm Alumínio.webp",
+    affiliateUrl: "https://meli.la/2EBh7fe",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-absolute-hb-002-80mm",
+    name: "Guidão HB-002 Alto 80mm MTB 720mm",
+    description: "Guidão com 80mm de elevação para máximo conforto, permitindo pedalar de costas retas no dia a dia.",
+    imageUrl: "/images/blog/1/Guidão HB-002 Alto 80mm MTB 720mm.webp",
+    affiliateUrl: "https://meli.la/1C53h8R",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-absolute-semi-curvo-20mm",
+    name: "Guidão Absolute MTB Semi Curvo 20mm 720mm",
+    description: "O modelo faz tudo com 20mm de elevação. Geometria versátil ideal para asfalto e estradão de terra.",
+    imageUrl: "/images/blog/1/Guidão Absolute MTB Semi Curvo 20mm 720mm.webp",
+    affiliateUrl: "https://meli.la/2bDZFvY",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-absolute-nero-80mm",
+    name: "Guidão Alto Absolute Nero 80mm Curvo",
+    description: "Para uso urbano com 80mm de elevação. Zera as dores de postura deitando a bike no conforto.",
+    imageUrl: "/images/blog/1/Guidão Alto Absolute Nero 80mm Curvo.webp",
+    affiliateUrl: "https://meli.la/2pcARUS",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-rava-flat-730mm",
+    name: "Guidão Rava MTB Trilha Reto 730mm Backsweep 9°",
+    description: "Reto mas ergonômico. Com 9° de backsweep para manter a performance de giro aliviando as articulações.",
+    imageUrl: "/images/blog/1/Guidão Rava MTB Trilha Reto 730mm Backsweep 9°.webp",
+    affiliateUrl: "https://meli.la/1ZCmx2P",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-absolute-nero-60mm",
+    name: "Guidão Absolute Nero Curvo Rise 60mm",
+    description: "Levanta as mãos sem prejudicar muito a pilotagem em descidas, salvando quadros com geometria baixa.",
+    imageUrl: "/images/blog/1/Guidão Absolute Nero Curvo Rise 60mm.webp",
+    affiliateUrl: "https://meli.la/1y4Kfx3",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-rava-rise-20mm",
+    name: "Guidão Rava Alto Curvo Rise Bar 20mm",
+    description: "A aula de ergonomia: combina backsweep e upsweep (9°) para naturalidade total das mãos.",
+    imageUrl: "/images/blog/1/Guidão Rava Alto Curvo Rise Bar 20mm.webp",
+    affiliateUrl: "https://meli.la/1iN5QfL",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-absolute-nero-40mm",
+    name: "Guidão Absolute Nero Rise 40mm Alumínio",
+    description: "Deixa a bike muito mais arisca e brincalhona, encurtando o alcance com 40mm de elevação.",
+    imageUrl: "/images/blog/1/Guidão Absolute Nero Rise 40mm Alumínio.webp",
+    affiliateUrl: "https://meli.la/2hnFimT",
+    category: "Guidão"
+  },
+  {
+    id: "guidao-mons-bike-flat-720mm",
+    name: "Guidão Bike Alumínio Reto 720mm 31.8mm Ahead Mtb Backsweep 9° Leve Resistente Ciclismo Mountain Bike Aro 29",
+    description: "Guidão super leve (290g) e agressivo, com foco em girar rápido protegendo o pulso com 9° de backsweep.",
+    imageUrl: "/images/blog/1/Guidão Bike Alumínio Reto 720mm 31.8mm Ahead Mtb Backsweep 9° Leve Resistente Ciclismo Mountain Bike Aro 29.webp",
+    affiliateUrl: "https://meli.la/1RkNJ5D",
+    category: "Guidão"
   }
 ];
 

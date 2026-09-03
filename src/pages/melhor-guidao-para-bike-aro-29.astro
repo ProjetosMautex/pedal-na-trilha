@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MelhorGuidao } from '../components/MelhorGuidao.tsx';
+
+// Aqui você define o SEO da página
+const title = "Melhor guidão para bike aro 29 (10 Modelos Recomendados)";
+const description = "Cansado de dor nas costas ou falta de controle na sua aro 29? O nosso mecânico explica de forma simples como escolher o guidão ideal. Confere as 10 melhores opções e zere suas dores!";
+---
+
+<Layout title={title} description={description}>
+  {/* O client:load é necessário para que os ícones e interações funcionem */}
+  <MelhorGuidao client:load />
+</Layout>

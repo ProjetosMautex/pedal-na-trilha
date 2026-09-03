@@ -151,8 +151,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img
-            src="/images/blog/1/melhor pneu para bike aro 29.webp"
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/melhor pneu para bike aro 29.webp"
             alt="Melhor Pneu para Bike Aro 29"
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -169,8 +168,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
                 href="/author/rafael-martins"
                 className="hover:opacity-80 transition-opacity"
               >
-                <img
-                  src="/images/autores/Rafael Martins.webp"
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp"
                   alt="Rafael Martins"
                   className="w-8 h-8 rounded-full border border-cyan-500"
                 />
@@ -312,8 +310,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
                     >
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
-                          <img
-                            src={product.imageUrl}
+                          <img loading="lazy" width="800" height="600" src={product.imageUrl}
                             alt={meta.shortName}
                             className="max-w-full max-h-full block object-cover"
                           />
@@ -360,7 +357,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Paco Nomad 29x2 com Faixa Bege MTB</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-paco-nomad')?.imageUrl} alt={products.find(p => p.id === 'pneu-paco-nomad')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-paco-nomad')?.imageUrl} alt={products.find(p => p.id === 'pneu-paco-nomad')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -422,7 +419,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Pirelli Scorpion Pro Kevlar 29x2</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-pirelli-scorpion')?.imageUrl} alt={products.find(p => p.id === 'pneu-pirelli-scorpion')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-pirelli-scorpion')?.imageUrl} alt={products.find(p => p.id === 'pneu-pirelli-scorpion')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -484,7 +481,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Bike Maxxis Ikon 29x2.20 Dobrável Exo Tubeless</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-maxxis-ikon')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-ikon')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-maxxis-ikon')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-ikon')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -541,7 +538,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8 mt-12">
           <h3>Par Pneus Bike Mtb Levorin Eruption Aro 29 X 2.30 Banda Leve</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'par-pneus-levorin')?.imageUrl} alt={products.find(p => p.id === 'par-pneus-levorin')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'par-pneus-levorin')?.imageUrl} alt={products.find(p => p.id === 'par-pneus-levorin')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -605,7 +602,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Maxxis Rekon Race 29x2.25 Kevlar Exo Tubeless</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.imageUrl} alt={products.find(p => p.id === 'pneu-maxxis-rekon-race')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -672,7 +669,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Pneu Mtb Kenda Aptor K1153 29x2.10 Faixa Marrom</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-kenda-aptor')?.imageUrl} alt={products.find(p => p.id === 'pneu-kenda-aptor')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-kenda-aptor')?.imageUrl} alt={products.find(p => p.id === 'pneu-kenda-aptor')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -736,7 +733,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>PNEU BICICLETA A29X2 EXCES</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'pneu-bicicleta-exces')?.imageUrl} alt={products.find(p => p.id === 'pneu-bicicleta-exces')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'pneu-bicicleta-exces')?.imageUrl} alt={products.find(p => p.id === 'pneu-bicicleta-exces')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
         </div>
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
@@ -816,8 +813,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group"
                 >
                   <div className="aspect-square bg-white flex items-center justify-center p-4">
-                    <img
-                      src={item.imageUrl}
+                    <img loading="lazy" width="800" height="600" src={item.imageUrl}
                       alt={item.name}
                       className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform"
                     />
@@ -867,8 +863,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <p>Respeite o seu terreno.</p>
 
           <h3>Tipo de pneu</h3>
-          <img
-            src="/images/blog/1/pneu_slick_vs_cravo_ptbr.webp"
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/pneu_slick_vs_cravo_ptbr.webp"
             alt="Comparação entre Pneu Slick e Pneu Cravo"
             className="w-full rounded-2xl shadow-xl border border-zinc-700 my-8"
           />
@@ -889,8 +884,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           <p>Seja realista com o piso que você pisa na maior parte do tempo.</p>
 
           <h3>Largura do pneu</h3>
-          <img
-            src="/images/blog/1/largura_e_clearance_1787509323239.webp"
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/largura_e_clearance_1787509323239.webp"
             alt="Demonstração do clearance entre o quadro da bike e a largura do pneu"
             className="w-full rounded-2xl shadow-xl border border-zinc-700 my-8"
           />
@@ -933,8 +927,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
           </p>
 
           <h3>Aderência</h3>
-          <img
-            src="/images/blog/1/cravos_laterais_1787509338144.webp"
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/cravos_laterais_1787509338144.webp"
             alt="Cravos laterais do pneu mordendo a terra na curva"
             className="w-full rounded-2xl shadow-xl border border-zinc-700 my-8"
           />
@@ -1087,8 +1080,7 @@ export const ArtigoMelhorPneuBikeAro29: React.FC = () => {
               href="/author/rafael-martins"
               className="hover:opacity-80 transition-opacity block"
             >
-              <img
-                src="/images/autores/Rafael Martins.webp"
+              <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp"
                 alt="Rafael Martins"
                 className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl"
               />

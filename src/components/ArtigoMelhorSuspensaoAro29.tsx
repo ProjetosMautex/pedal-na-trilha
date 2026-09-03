@@ -59,8 +59,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden -mx-6 mb-12 rounded-b-3xl md:-mx-0 md:rounded-3xl">
         <div className="absolute inset-0 z-0">
-          <img 
-            src={article.imageUrl}
+          <img loading="lazy" width="800" height="600" src={article.imageUrl}
             alt={article.title}
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -162,7 +161,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
                             TOP
                           </div>
                           {product.imageUrl ? (
-                             <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-contain relative z-0" />
+                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-contain relative z-0" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold relative z-0">Garfo</span>
                           )}
@@ -198,7 +197,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Melhor suspensão custo benefício - Absolute Prime Sl Aro 29</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-prime-sl')?.imageUrl} alt="Suspensão Bike Absolute Prime Sl Aro 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-prime-sl')?.imageUrl} alt="Suspensão Bike Absolute Prime Sl Aro 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -237,7 +236,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Melhor suspensão para bike Aro 29 - Rockshox Judy Silver Tk</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'rockshox-judy-silver')?.imageUrl} alt="Garfo Suspensão Aro 29 Rockshox Judy Silver Tk" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'rockshox-judy-silver')?.imageUrl} alt="Garfo Suspensão Aro 29 Rockshox Judy Silver Tk" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -277,7 +276,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Aro 29 Gta Alumínio</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'gta-aluminio')?.imageUrl} alt="Garfo Suspensão Aro 29 Gta Alumínio" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'gta-aluminio')?.imageUrl} alt="Garfo Suspensão Aro 29 Gta Alumínio" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -317,7 +316,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Absolute 330-HLO Aro 29 com Trava no Guidão</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-330-hlo')?.imageUrl} alt="Garfo Suspensão Absolute 330-HLO" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-330-hlo')?.imageUrl} alt="Garfo Suspensão Absolute 330-HLO" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -362,7 +361,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Absolute Nero Aro 29 com Trava no Guidão</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-nero-suspensao')?.imageUrl} alt="Garfo Suspensão Absolute Nero Aro 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-nero-suspensao')?.imageUrl} alt="Garfo Suspensão Absolute Nero Aro 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -401,7 +400,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Absolute MXFK-19 Aro 29 Aheadset Aço</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'absolute-mxfk-19')?.imageUrl} alt="Garfo Suspensão Absolute MXFK-19" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'absolute-mxfk-19')?.imageUrl} alt="Garfo Suspensão Absolute MXFK-19" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -441,7 +440,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Aro 29 Bikemaxx Trava Ombro</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'bikemaxx-trava-ombro')?.imageUrl} alt="Garfo Suspensão Aro 29 Bikemaxx" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'bikemaxx-trava-ombro')?.imageUrl} alt="Garfo Suspensão Aro 29 Bikemaxx" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -480,7 +479,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-8">
           <h3>Garfo Suspensão Cly Harpia 29 Com Trava e Ajuste Freio a Disco</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'cly-harpia')?.imageUrl} alt="Garfo Suspensão Cly Harpia 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'cly-harpia')?.imageUrl} alt="Garfo Suspensão Cly Harpia 29" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           
           <div className="space-y-4">
@@ -532,7 +531,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col h-full"
                 >
                   <div className="aspect-square bg-white flex items-center justify-center p-4">
-                    <img src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                    <img loading="lazy" width="800" height="600" src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                   </div>
                   <div className="p-4 text-center flex flex-col items-center flex-grow justify-between">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
@@ -569,7 +568,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         {/* Cross-Sell 1: Bomba de Ar */}
         <div className="my-12">
           <div className="mb-8">
-            <img src={accessories.find(p => p.id === 'bomba-suspensao-absolute')?.imageUrl} alt="Bomba De Ar P Suspensão Absolute Wild Alumínio" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'bomba-suspensao-absolute')?.imageUrl} alt="Bomba De Ar P Suspensão Absolute Wild Alumínio" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
             <h4 className="text-cyan-400 font-bold mb-2">Aviso Importante para Garfos a Ar</h4>
@@ -590,7 +589,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
 
         {/* Respiro 2 */}
         <div className="my-12">
-          <img src="/images/blog/1/respiro-suspensao-mtb-2.webp" alt="Eixo da roda dianteira preso ao garfo de suspensão em detalhe técnico" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/respiro-suspensao-mtb-2.webp" alt="Eixo da roda dianteira preso ao garfo de suspensão em detalhe técnico" className="w-full rounded-2xl shadow-xl border border-zinc-700" />
         </div>
 
         <h3 className="text-2xl font-bold text-cyan-400 mb-6 mt-12">Qual material do shoulder: aço ou alumínio?</h3>
@@ -629,7 +628,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         {/* Cross-Sell 2: Chave Dinamométrica */}
         <div className="my-12">
           <div className="mb-8">
-            <img src={accessories.find(p => p.id === 'chave-dinamometrica')?.imageUrl} alt="Chave Dinamométrica para Bicicleta" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'chave-dinamometrica')?.imageUrl} alt="Chave Dinamométrica para Bicicleta" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
             <h4 className="text-cyan-400 font-bold mb-2">Instalação Segura</h4>
@@ -641,7 +640,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         {/* Cross-Sell 3: Adaptador Tapered */}
         <div className="my-12">
           <div className="mb-8">
-            <img src={accessories.find(p => p.id === 'adaptador-suspensao-tapered')?.imageUrl} alt="Adaptador Para Suspensão Normal Em Quadros Tapered" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'adaptador-suspensao-tapered')?.imageUrl} alt="Adaptador Para Suspensão Normal Em Quadros Tapered" className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="bg-zinc-800/50 p-6 rounded-t-xl border-t border-l border-r border-zinc-700/50">
             <h4 className="text-cyan-400 font-bold mb-2">Comprou espiga reta e tem quadro moderno?</h4>
@@ -725,7 +724,7 @@ export default function ArtigoMelhorSuspensaoAro29() {
         {/* SOBRE O AUTOR */}
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
           </div>
           <div>
             <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>

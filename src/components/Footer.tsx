@@ -44,9 +44,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-zinc-800 text-center">
-          <p className="text-zinc-500 text-sm">
-            © 2026 Pedal na Trilha. Todos os direitos reservados.
+        <div className="mt-12 pt-8 border-t border-cyan-900/30 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-zinc-400 text-sm">
+            &copy; {new Date().getFullYear()} Pedal na Trilha. Todos os direitos reservados.
           </p>
         </div>
       </div>

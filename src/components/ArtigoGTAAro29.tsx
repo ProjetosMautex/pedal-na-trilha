@@ -45,8 +45,7 @@ export const ArtigoGTAAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img 
-            src="/images/blog/1/GTA Start aro 29 21v e boa.webp" 
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/GTA Start aro 29 21v e boa.webp" 
             alt="Bicicleta GTA Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -60,7 +59,7 @@ export const ArtigoGTAAro29: React.FC = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-gray-300 text-sm md:text-base">
             <div className="flex items-center gap-2">
               <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity">
-                <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
+                <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-8 h-8 rounded-full border border-cyan-500" />
               </a>
               <a href="/author/rafael-martins" className="hover:text-cyan-400 transition-colors">Por Rafael Martins</a>
             </div>
@@ -131,7 +130,7 @@ export const ArtigoGTAAro29: React.FC = () => {
                     <tr key={product.id} className="border-b border-zinc-700 last:border-b-0 hover:bg-zinc-800/50 transition-colors">
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
-                           <img src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
+                           <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={product.name} className="max-w-full max-h-full block object-cover" />
                         </div>
                       </td>
                       <td className="p-2 align-middle">
@@ -163,7 +162,7 @@ export const ArtigoGTAAro29: React.FC = () => {
           <p>Ela é um braço forte da GTSM1, uma verdadeira gigante do nosso mercado que respira bicicleta desde 1994, lá em Itu (SP).</p>
           <p>Diferente daquelas marcas que só trazem a caixa fechada do outro lado do mundo, eles têm uma fábrica própria aqui (a Ytu Bike) batendo os quadros em alumínio e montando milhares de unidades por mês.</p>
           
-          <img src="/images/blog/1/gta_factory.webp" alt="Fábrica da bicicleta" className="w-full rounded-2xl shadow-xl border border-zinc-700 my-8" />
+          <img loading="lazy" width="800" height="600" src="/images/blog/1/gta_factory.webp" alt="Fábrica da bicicleta" className="w-full rounded-2xl shadow-xl border border-zinc-700 my-8" />
           
           <p>O que isso muda na sua vida?</p>
           <p>Segurança.</p>
@@ -171,7 +170,7 @@ export const ArtigoGTAAro29: React.FC = () => {
 
           <h2>GTA Start aro 29 21v: a porta de entrada da marca</h2>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'gta-start-21v')?.imageUrl} alt={products.find(p => p.id === 'gta-start-21v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'gta-start-21v')?.imageUrl} alt={products.find(p => p.id === 'gta-start-21v')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>A GTA Start 21v é aquele feijão com arroz bem temperado para quem quer começar a girar sem esvaziar a conta bancária.</p>
           <p>Ela foi pensada para aquele uso curinga: fugir do trânsito na ciclovia de manhã e curtir uma estradinha de terra no domingo.</p>
@@ -311,7 +310,7 @@ export const ArtigoGTAAro29: React.FC = () => {
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
               >
                 <div className="aspect-square bg-white flex items-center justify-center p-4">
-                  <img src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+                  <img loading="lazy" width="800" height="600" src={item.imageUrl} alt={item.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
@@ -362,7 +361,7 @@ export const ArtigoGTAAro29: React.FC = () => {
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h3>GTA vs KSW</h3>
           <div className="my-8">
-            <img src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'ksw-xlt-100')?.imageUrl} alt={products.find(p => p.id === 'ksw-xlt-100')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <p>Quando coloco a KSW XLT 100 do lado da GTA, a diferença de estratégia aparece nas peças.</p>
           <p>A GTA foca pesado no acabamento e no quadro de cabos embutidos.</p>
@@ -446,7 +445,7 @@ export const ArtigoGTAAro29: React.FC = () => {
         <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
           <div className="shrink-0 mx-auto md:mx-0">
             <a href="/author/rafael-martins" className="hover:opacity-80 transition-opacity block">
-              <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+              <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
             </a>
           </div>
           <div>
