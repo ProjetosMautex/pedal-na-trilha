@@ -458,7 +458,7 @@ export const MelhorGuidao: React.FC = () => {
             <AffiliateCard product={products.find(p => p.id === 'guidao-rava-flat-730mm')!} />
           </div>
           <div className="my-10 p-6 bg-zinc-900/50 rounded-2xl border border-zinc-700 shadow-xl">
-            <h4 className="text-lg font-bold text-white mb-4">Complete o combo para zerar as dores nas m�os:</h4>
+            <h4 className="text-lg font-bold text-white mb-4">Complete o combo para zerar as dores nas mãos:</h4>
             <AffiliateCard product={accessories.find(p => p.id === 'manopla-gta-lock')!} />
           </div>
           <div className="grid md:grid-cols-2 gap-6 mt-8 mb-12">
@@ -762,7 +762,13 @@ export const MelhorGuidao: React.FC = () => {
           <p>Depois, use sempre uma ferramenta de torque (torquímetro).</p>
           <p>Se você for no olhômetro e esmagar o alumínio, pode abrir trincas perigosas no material!</p>
           <p>Use as marquinhas no centro para alinhar o ângulo ideal para o seu punho e, antes de rodar, vire o guidão tudo para os dois lados para ter certeza de que nenhum cabo de freio ficou esgarçado.</p>
+        <div className="my-12 p-6 bg-zinc-900/80 rounded-2xl border border-zinc-700 shadow-xl">
+          <h4 className="text-xl font-bold text-cyan-400 mb-4">Recomendação do Mecânico</h4>
+          <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'torquimetro-estalo')?.imageUrl} alt="Torquimetro Estalo" className="w-full max-h-[300px] object-contain rounded-xl bg-white p-4 mb-6" />
+          <AffiliateCard product={accessories.find(p => p.id === 'torquimetro-estalo')!} />
         </div>
+
+</div>
 
         <h3 className="text-2xl font-bold text-white mb-4">Por que Investir em Alumínio 6061 para sua Bike?</h3>
         <div className="space-y-4 prose prose-lg text-zinc-300 mb-8">
@@ -810,7 +816,7 @@ export const MelhorGuidao: React.FC = () => {
                   ))}
                   {faq.question.includes("mesa") && (
                     <div className="mt-6 bg-zinc-900/50 p-4 rounded-xl border border-zinc-700">
-                      <h4 className="text-lg font-bold text-cyan-400 mb-4">Op��o de mesa curta (35mm) para guid�es agressivos:</h4>
+                      <h4 className="text-lg font-bold text-cyan-400 mb-4">Opção de mesa curta (35mm) para guidões agressivos:</h4>
                       <AffiliateCard product={accessories.find(p => p.id === 'mesa-absolute-35mm')!} />
                     </div>
                   )}
