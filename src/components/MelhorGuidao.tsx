@@ -457,6 +457,10 @@ export const MelhorGuidao: React.FC = () => {
           <div className="mt-8 mb-8">
             <AffiliateCard product={products.find(p => p.id === 'guidao-rava-flat-730mm')!} />
           </div>
+          <div className="my-10 p-6 bg-zinc-900/50 rounded-2xl border border-zinc-700 shadow-xl">
+            <h4 className="text-lg font-bold text-white mb-4">Complete o combo para zerar as dores nas m�os:</h4>
+            <AffiliateCard product={accessories.find(p => p.id === 'manopla-gta-lock')!} />
+          </div>
           <div className="grid md:grid-cols-2 gap-6 mt-8 mb-12">
             <div className="bg-green-50 p-6 rounded-xl border border-green-100">
               <h4 className="font-bold text-green-800 mb-4 flex items-center gap-2"><Check size={20} /> Prós</h4>
@@ -642,7 +646,7 @@ export const MelhorGuidao: React.FC = () => {
           </h3>
           <p className="text-zinc-300 text-sm mb-6">Mudar o guidão pede um ajuste perfeito. Complete o cockpit da sua magrela:</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.filter(i => ['capacete-absolute', 'chave-dinamometrica', 'bomba-ar-portatil'].includes(i.id)).map(p => {
+            {accessories.filter(i => ['torquimetro-estalo', 'manopla-gta-lock', 'mesa-absolute-35mm'].includes(i.id)).map(p => {
               return (
                 <a 
                   key={p.id}
@@ -804,6 +808,12 @@ export const MelhorGuidao: React.FC = () => {
                   {faq.answer.map((paragraph, i) => (
                     <p key={i}>{paragraph}</p>
                   ))}
+                  {faq.question.includes("mesa") && (
+                    <div className="mt-6 bg-zinc-900/50 p-4 rounded-xl border border-zinc-700">
+                      <h4 className="text-lg font-bold text-cyan-400 mb-4">Op��o de mesa curta (35mm) para guid�es agressivos:</h4>
+                      <AffiliateCard product={accessories.find(p => p.id === 'mesa-absolute-35mm')!} />
+                    </div>
+                  )}
                 </div>
               )}
             </div>
