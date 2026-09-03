@@ -94,7 +94,7 @@ export const MelhorGuidao: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/melhor-guidao-para-bike-aro-29.webp" alt="Melhor guid�o para bike aro 29 Background" className="w-full h-full object-cover opacity-20 blur-sm" fetchpriority="high" width="1200" height="800" />
+          <img src="/images/blog/1/melhor-guidao-para-bike-aro-29.webp" alt="Melhor guid�o para bike aro 29 Background" className="w-full h-full object-cover opacity-20 blur-sm" fetchpriority="high" width="1200" height="800" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/80 to-[#1a1a1a]"></div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -188,7 +188,7 @@ export const MelhorGuidao: React.FC = () => {
                       <td className="p-2 align-middle text-center">
                         <div className="w-[45px] h-[45px] sm:w-[60px] sm:h-[60px] border border-slate-100 rounded flex items-center justify-center p-0.5 bg-zinc-100 mx-auto overflow-hidden">
                           {product.imageUrl ? (
-                             <img loading="lazy" width="800" height="600" src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" width="400" height="400" loading="lazy" />
+                             <img src={product.imageUrl} alt={meta.shortName} className="max-w-full max-h-full block object-cover" width="400" height="400" loading="lazy" />
                           ) : (
                              <span className="text-[10px] text-zinc-400 font-bold">Guidão</span>
                           )}
@@ -237,7 +237,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão MTB Alumínio Curvo XC 780mm (Preto)
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-lunje-780mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-lunje-780mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-lunje-780mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-lunje-780mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Quer domar buracos e raízes com muito mais alavanca?</p>
@@ -278,7 +278,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Shiver MTB Flat Reto 760mm Alumínio
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-shiver-flat-760mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-shiver-flat-760mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-shiver-flat-760mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-shiver-flat-760mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Aqui o papo é para quem gosta de acelerar no Cross-Country ou quer devorar subidas íngremes.</p>
@@ -319,7 +319,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão HB-002 Alto 80mm MTB 720mm
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-absolute-hb-002-80mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-hb-002-80mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-absolute-hb-002-80mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-hb-002-80mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Chegou do pedal com o pescoço travado?</p>
@@ -362,7 +362,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Absolute MTB Semi Curvo 20mm 720mm
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-absolute-semi-curvo-20mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-semi-curvo-20mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-absolute-semi-curvo-20mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-semi-curvo-20mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Esse aqui é o famoso faz tudo.</p>
@@ -402,7 +402,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Alto Absolute Nero 80mm Curvo
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-absolute-nero-80mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-80mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-absolute-nero-80mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-80mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Dor nas costas ao pedalar não é normal, amigo.</p>
@@ -442,7 +442,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Rava MTB Trilha Reto 730mm Backsweep 9°
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-rava-flat-730mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-rava-flat-730mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-rava-flat-730mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-rava-flat-730mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Sente formigamento nas mãos?</p>
@@ -487,7 +487,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Absolute Nero Curvo Rise 60mm
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-absolute-nero-60mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-60mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-absolute-nero-60mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-60mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Sabe quando você senta na bike e parece que o guidão sumiu lá embaixo?</p>
@@ -527,7 +527,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Rava Alto Curvo Rise Bar 20mm
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-rava-rise-20mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-rava-rise-20mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-rava-rise-20mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-rava-rise-20mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Quer dominar as raízes e pedras sem destruir os pulsos?</p>
@@ -566,7 +566,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Absolute Nero Rise 40mm Alumínio
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-absolute-nero-40mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-40mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-absolute-nero-40mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-absolute-nero-40mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>Se você sente que sua aro 29 é meio preguiçosa para virar, o Absolute com 40mm de elevação muda o jogo.</p>
@@ -605,7 +605,7 @@ export const MelhorGuidao: React.FC = () => {
             Guidão Bike Alumínio Reto 720mm 31.8mm Ahead Mtb Backsweep 9° Leve Resistente Ciclismo Mountain Bike Aro 29
           </h3>
           <div className="my-8">
-            <img loading="lazy" width="800" height="600" src={products.find(p => p.id === 'guidao-mons-bike-flat-720mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-mons-bike-flat-720mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
+            <img src={products.find(p => p.id === 'guidao-mons-bike-flat-720mm')?.imageUrl} width="800" height="600" loading="lazy" alt={products.find(p => p.id === 'guidao-mons-bike-flat-720mm')?.name} className="w-full max-h-[400px] object-contain rounded-2xl shadow-xl border border-zinc-700 bg-white p-4" />
           </div>
           <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none">
             <p>O guidão flat Mons Bike 720mm é para você que quer velocidade sem sofrimento.</p>
@@ -657,7 +657,7 @@ export const MelhorGuidao: React.FC = () => {
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col h-full"
                 >
                   <div className="aspect-square bg-white flex items-center justify-center p-4">
-                    <img loading="lazy" width="800" height="600" src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" width="400" height="400" loading="lazy" />
+                    <img src={p.imageUrl} alt={p.name} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" width="400" height="400" loading="lazy" />
                   </div>
                   <div className="p-4 text-center flex flex-col items-center flex-grow justify-between">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
@@ -697,7 +697,7 @@ export const MelhorGuidao: React.FC = () => {
         </div>
         
         <div className="my-12">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/guidao-reto-vs-curvo.webp" alt="Comparativo Guid�o Reto vs Curvo" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
+          <img src="/images/blog/1/guidao-reto-vs-curvo.webp" alt="Comparativo Guid�o Reto vs Curvo" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
         </div>
 
         <h3 className="text-2xl font-bold text-white mb-4">Alumínio vs Titânio: Qual o Melhor Material?</h3>
@@ -728,7 +728,7 @@ export const MelhorGuidao: React.FC = () => {
         </div>
 
         <div className="my-12">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/guidao-backsweep-maos.webp" alt="Backsweep guiando a posi��o natural das m�os" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
+          <img src="/images/blog/1/guidao-backsweep-maos.webp" alt="Backsweep guiando a posi��o natural das m�os" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
         </div>
 
         <h2 className="text-3xl font-extrabold text-white border-b-4 border-cyan-400 pb-2 mt-16 mb-8">
@@ -832,7 +832,7 @@ export const MelhorGuidao: React.FC = () => {
 
         {/* AUTHOR BIO */}
         <div className="mt-16 bg-zinc-800/50 p-6 sm:p-8 rounded-2xl border border-zinc-700 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
-            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-24 h-24 rounded-full border-4 border-cyan-400 object-cover" width="96" height="96" loading="lazy" />
+            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-24 h-24 rounded-full border-4 border-cyan-400 object-cover" width="96" height="96" loading="lazy" />
           <div>
             <h3 className="text-2xl font-bold text-white mb-2">Sobre o Autor: Rafael Martins</h3>
             <p className="text-zinc-300 text-sm leading-relaxed mb-4">
