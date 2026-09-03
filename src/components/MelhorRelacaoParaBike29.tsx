@@ -394,7 +394,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
           <div className="flex justify-center aspect-video w-full max-w-3xl mx-auto">
             <iframe 
               className="w-full h-full rounded-lg shadow-lg border border-slate-700"
-              src="https://www.youtube.com/embed/0wFbz5wqvKQ" 
+              src="https://www.youtube-nocookie.com/embed/0wFbz5wqvKQ" 
               title="YouTube video player" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

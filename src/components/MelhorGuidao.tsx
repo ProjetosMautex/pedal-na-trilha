@@ -741,7 +741,7 @@ export const MelhorGuidao: React.FC = () => {
             <iframe loading="lazy" 
               width="560" 
               height="315" 
-              src="https://www.youtube.com/embed/8bA_vNlO75Q" 
+              src="https://www.youtube-nocookie.com/embed/8bA_vNlO75Q" 
               title="Como instalar guidão" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

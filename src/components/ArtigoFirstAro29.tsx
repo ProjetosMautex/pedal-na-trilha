@@ -245,7 +245,7 @@ export const ArtigoFirstAro29: React.FC = () => {
           <div className="relative pt-[56.25%] rounded-2xl overflow-hidden shadow-xl border border-zinc-700">
             <iframe 
               className="absolute inset-0 w-full h-full"
-              src="https://www.youtube.com/embed/4wI9pLxE0nk" 
+              src="https://www.youtube-nocookie.com/embed/4wI9pLxE0nk" 
               title="YouTube video player" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

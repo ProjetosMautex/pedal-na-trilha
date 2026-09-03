@@ -258,7 +258,7 @@ export const ArtigoGTAAro29: React.FC = () => {
           <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">Quer ver a magrela em detalhes? Confira no vídeo abaixo.</p>
           <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl max-w-3xl mx-auto border border-zinc-700">
             <iframe 
-              src="https://www.youtube.com/embed/JmCS5hT_IOg" 
+              src="https://www.youtube-nocookie.com/embed/JmCS5hT_IOg" 
               title="Review da GTA Start 21v" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen

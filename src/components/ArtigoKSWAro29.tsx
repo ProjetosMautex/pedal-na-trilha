@@ -447,7 +447,7 @@ export const ArtigoKSWAro29: React.FC = () => {
           <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">Confira no vídeo abaixo a diferença real de funcionamento entre o freio mecânico (KSW) e o freio hidráulico (Caloi e Absolute) e tire suas próprias conclusões.</p>
           <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl max-w-3xl mx-auto border border-zinc-700">
             <iframe 
-              src="https://www.youtube.com/embed/q3rGmM_FRbw" 
+              src="https://www.youtube-nocookie.com/embed/q3rGmM_FRbw" 
               title="Freio a disco hidráulico vs mecânico" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
