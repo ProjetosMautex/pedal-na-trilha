@@ -84,7 +84,7 @@ export default function BunnerDoMeio() {
               <button
                 type="submit"
                 disabled={status === 'submitting' || !isValidEmail}
-                className="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-black py-4 px-4 rounded text-base uppercase tracking-wide transition-colors disabled:opacity-50 shadow-lg shadow-cyan-900/50"
+                className="w-full bg-cyan-500 hover:bg-cyan-400 text-zinc-950 font-black py-4 px-4 rounded text-base uppercase tracking-wide transition-colors disabled:opacity-50 shadow-lg shadow-cyan-900/50"
               >
                 {status === 'submitting' ? 'Aguarde...' : 'QUERO ACESSAR O GUIA'}
               </button>

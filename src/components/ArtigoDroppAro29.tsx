@@ -167,7 +167,7 @@ export const ArtigoDroppAro29: React.FC = () => {
                         </div>
                       </td>
                       <td className="p-3 text-sm sm:text-base font-bold text-white align-middle">
-                        <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+                        <a href={product.affiliateUrl} aria-label={`Ver oferta de ${product.name}`} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
                           {product.name}
                         </a>
                       </td>
@@ -175,11 +175,10 @@ export const ArtigoDroppAro29: React.FC = () => {
                         {product.category}
                       </td>
                       <td className="p-3 align-middle text-center">
-                        <a 
-                          href={product.affiliateUrl}
+                        <a href={product.affiliateUrl} aria-label={`Ver oferta de ${product.name}`}
                           target="_blank" 
                           rel="noopener noreferrer"
-                          className="inline-block bg-cyan-600 hover:bg-cyan-500 text-white text-[11px] sm:text-sm font-bold py-2 sm:py-2.5 px-3 sm:px-5 rounded transition-colors whitespace-nowrap"
+                          className="inline-block bg-cyan-500 hover:bg-cyan-400 text-zinc-950 text-[11px] sm:text-sm font-bold py-2 sm:py-2.5 px-3 sm:px-5 rounded transition-colors whitespace-nowrap"
                         >
                           VER PREÇO
                         </a>
@@ -215,6 +214,7 @@ export const ArtigoDroppAro29: React.FC = () => {
               <a 
                 key={item.id} 
                 href={item.affiliateUrl}
+                aria-label={`Ver oferta de ${item.name}`}
                 target="_blank" 
                 rel="noopener noreferrer sponsored nofollow"
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
@@ -224,7 +224,7 @@ export const ArtigoDroppAro29: React.FC = () => {
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
-                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                  <span className="block bg-cyan-500 group-hover:bg-cyan-400 text-zinc-950 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
                 </div>
               </a>
             ))}

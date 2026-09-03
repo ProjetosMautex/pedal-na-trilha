@@ -136,7 +136,7 @@ export const BlogContent: React.FC = () => {
                 className={`px-6 py-2 rounded-lg font-bold transition-all ${
                   currentPage === 1 
                     ? 'bg-zinc-800 text-zinc-500 cursor-not-allowed' 
-                    : 'bg-cyan-600 text-white hover:bg-cyan-500 shadow-lg active:scale-95'
+                    : 'bg-cyan-500 text-zinc-950 hover:bg-cyan-400 shadow-lg active:scale-95'
                 }`}
               >
                 Anterior
@@ -154,7 +154,7 @@ export const BlogContent: React.FC = () => {
                 className={`px-6 py-2 rounded-lg font-bold transition-all ${
                   currentPage === totalPages 
                     ? 'bg-zinc-800 text-zinc-500 cursor-not-allowed' 
-                    : 'bg-cyan-600 text-white hover:bg-cyan-500 shadow-lg active:scale-95'
+                    : 'bg-cyan-500 text-zinc-950 hover:bg-cyan-400 shadow-lg active:scale-95'
                 }`}
               >
                 Próxima
@@ -175,7 +175,7 @@ export const BlogContent: React.FC = () => {
               />
               <button 
                 type="submit"
-                className="bg-cyan-600 text-white px-4 py-1 rounded-lg font-black text-sm uppercase hover:bg-cyan-500 transition-all active:scale-95"
+                className="bg-cyan-500 text-zinc-950 px-4 py-1 rounded-lg font-black text-sm uppercase hover:bg-cyan-500 transition-all active:scale-95"
               >
                 OK
               </button>

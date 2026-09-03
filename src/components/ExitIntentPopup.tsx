@@ -102,7 +102,7 @@ export default function ExitIntentPopup() {
             <button
               type="submit"
               disabled={status === 'submitting' || !isValidEmail}
-              className="bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 px-6 rounded-lg text-sm transition-transform active:scale-95 disabled:opacity-50 whitespace-nowrap"
+              className="bg-cyan-500 hover:bg-cyan-400 text-zinc-950 font-bold py-2 px-6 rounded-lg text-sm transition-transform active:scale-95 disabled:opacity-50 whitespace-nowrap"
             >
               {status === 'submitting' ? '...' : 'ME ENSINE COMO'}
             </button>

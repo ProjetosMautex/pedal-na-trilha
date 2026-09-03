@@ -170,7 +170,7 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-2 bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-4 px-8 rounded-xl transition-colors"
+                className="w-full flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-zinc-950 font-bold py-4 px-8 rounded-xl transition-colors"
               >
                 <Send className="w-5 h-5" />
                 Enviar Mensagem

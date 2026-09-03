@@ -133,7 +133,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                         <div className="text-[11px] text-zinc-400 mt-1 md:hidden">
                           {meta.category}
                         </div>
-                        <div className="text-[11px] font-bold text-yellow-700 mt-0.5 sm:hidden">
+                        <div className="text-[11px] font-bold text-yellow-400 mt-0.5 sm:hidden">
                           Nota: {meta.score}
                         </div>
                       </td>
@@ -146,8 +146,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                         </span>
                       </td>
                       <td className="p-2 align-middle text-center">
-                        <a 
-                          href={product.affiliateUrl}
+                        <a href={product.affiliateUrl} aria-label={`Ver oferta de ${product.name}`}
                           target="_blank"
                           rel="noopener noreferrer sponsored"
                           className="bg-cyan-500 text-zinc-950 font-bold no-underline text-xs py-2 px-3 rounded whitespace-nowrap inline-block hover:opacity-90 transition-all sm:py-2.5 sm:px-5"
@@ -349,6 +348,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                 <a 
                   key={p.id}
                   href={p.affiliateUrl} 
+                  aria-label={`Ver oferta de ${p.name}`} 
                   target="_blank" 
                   rel="noopener noreferrer sponsored nofollow" 
                   className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
@@ -358,7 +358,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
                   </div>
                   <div className="p-4 text-center flex flex-col items-center">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
-                    <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                    <span className="block bg-cyan-500 group-hover:bg-cyan-400 text-zinc-950 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
                   </div>
                 </a>
               );

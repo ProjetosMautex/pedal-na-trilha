@@ -157,7 +157,7 @@ export const ArtigoKSWAro29: React.FC = () => {
                         {meta.score}
                       </td>
                       <td className="p-2 align-middle text-center">
-                        <a href={product.affiliateUrl} target="_blank" rel="noopener noreferrer sponsored nofollow" className="inline-block bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-[10px] sm:text-xs py-1.5 sm:py-2 px-2 sm:px-3 rounded transition-colors whitespace-nowrap shadow-md">
+                        <a href={product.affiliateUrl} aria-label={`Ver oferta de ${product.name}`} target="_blank" rel="noopener noreferrer sponsored nofollow" className="inline-block bg-cyan-500 hover:bg-cyan-400 text-zinc-950 font-bold text-[10px] sm:text-xs py-1.5 sm:py-2 px-2 sm:px-3 rounded transition-colors whitespace-nowrap shadow-md">
                           VER PREÇO
                         </a>
                       </td>
@@ -312,6 +312,7 @@ export const ArtigoKSWAro29: React.FC = () => {
               <a 
                 key={item.id} 
                 href={item.affiliateUrl}
+                aria-label={`Ver oferta de ${item.name}`}
                 target="_blank" 
                 rel="noopener noreferrer sponsored nofollow"
                 className="block bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden hover:border-cyan-500 transition-colors group shadow-lg flex flex-col"
@@ -321,7 +322,7 @@ export const ArtigoKSWAro29: React.FC = () => {
                 </div>
                 <div className="p-4 text-center flex flex-col items-center">
                   <h4 className="text-zinc-100 font-bold text-sm mb-3">{item.name}</h4>
-                  <span className="block bg-cyan-600 group-hover:bg-cyan-500 text-white w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                  <span className="block bg-cyan-500 group-hover:bg-cyan-400 text-zinc-950 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
                 </div>
               </a>
             ))}
