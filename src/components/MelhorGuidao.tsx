@@ -457,10 +457,6 @@ export const MelhorGuidao: React.FC = () => {
           <div className="mt-8 mb-8">
             <AffiliateCard product={products.find(p => p.id === 'guidao-rava-flat-730mm')!} />
           </div>
-          <div className="my-10 p-6 bg-zinc-900/50 rounded-2xl border border-zinc-700 shadow-xl">
-            <h4 className="text-lg font-bold text-white mb-4">Complete o combo para zerar as dores nas mãos:</h4>
-            <AffiliateCard product={accessories.find(p => p.id === 'manopla-gta-lock')!} />
-          </div>
           <div className="grid md:grid-cols-2 gap-6 mt-8 mb-12">
             <div className="bg-green-50 p-6 rounded-xl border border-green-100">
               <h4 className="font-bold text-green-800 mb-4 flex items-center gap-2"><Check size={20} /> Prós</h4>
@@ -642,11 +638,11 @@ export const MelhorGuidao: React.FC = () => {
         {/* CROSS-SELL BANNER */}
         <div className="my-12 bg-zinc-900 rounded-2xl p-6 border border-zinc-700">
           <h3 className="text-xl font-bold text-cyan-400 mb-4 flex items-center gap-2">
-            <ShoppingCart size={24} /> Complete seu setup
+            <ShoppingCart size={24} /> Complete seu setup de segurança urbana
           </h3>
-          <p className="text-zinc-300 text-sm mb-6">Mudar o guidão pede um ajuste perfeito. Complete o cockpit da sua magrela:</p>
+          <p className="text-zinc-300 text-sm mb-6">Sua segurança no trânsito não tem preço. Complete seu setup com: Capacete com LED, Trava/Cadeado em U (U-Lock) e Bomba de ar portátil.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {accessories.filter(i => ['torquimetro-estalo', 'manopla-gta-lock', 'mesa-absolute-35mm'].includes(i.id)).map(p => {
+            {accessories.filter(i => ['capacete-absolute', 'cadeado-ulock', 'bomba-ar-portatil'].includes(i.id)).map(p => {
               return (
                 <a 
                   key={p.id}
@@ -661,7 +657,7 @@ export const MelhorGuidao: React.FC = () => {
                   </div>
                   <div className="p-4 text-center flex flex-col items-center flex-grow justify-between">
                     <h4 className="text-zinc-100 font-bold text-sm mb-3">{p.name}</h4>
-                    <span className="block bg-cyan-500 group-hover:bg-cyan-400 text-zinc-950 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço →</span>
+                    <span className="block bg-cyan-500 group-hover:bg-cyan-400 text-zinc-950 w-full py-2.5 px-4 rounded-lg font-bold text-xs uppercase tracking-wider transition-colors shadow-md">Ver Preço ➔</span>
                   </div>
                 </a>
               );
@@ -762,12 +758,6 @@ export const MelhorGuidao: React.FC = () => {
           <p>Depois, use sempre uma ferramenta de torque (torquímetro).</p>
           <p>Se você for no olhômetro e esmagar o alumínio, pode abrir trincas perigosas no material!</p>
           <p>Use as marquinhas no centro para alinhar o ângulo ideal para o seu punho e, antes de rodar, vire o guidão tudo para os dois lados para ter certeza de que nenhum cabo de freio ficou esgarçado.</p>
-        <div className="my-12 p-6 bg-zinc-900/80 rounded-2xl border border-zinc-700 shadow-xl">
-          <h4 className="text-xl font-bold text-cyan-400 mb-4">Recomendação do Mecânico</h4>
-          <img loading="lazy" width="800" height="600" src={accessories.find(p => p.id === 'torquimetro-estalo')?.imageUrl} alt="Torquimetro Estalo" className="w-full max-h-[300px] object-contain rounded-xl bg-white p-4 mb-6" />
-          <AffiliateCard product={accessories.find(p => p.id === 'torquimetro-estalo')!} />
-        </div>
-
 </div>
 
         <h3 className="text-2xl font-bold text-white mb-4">Por que Investir em Alumínio 6061 para sua Bike?</h3>
@@ -814,12 +804,6 @@ export const MelhorGuidao: React.FC = () => {
                   {faq.answer.map((paragraph, i) => (
                     <p key={i}>{paragraph}</p>
                   ))}
-                  {faq.question.includes("mesa") && (
-                    <div className="mt-6 bg-zinc-900/50 p-4 rounded-xl border border-zinc-700">
-                      <h4 className="text-lg font-bold text-cyan-400 mb-4">Opção de mesa curta (35mm) para guidões agressivos:</h4>
-                      <AffiliateCard product={accessories.find(p => p.id === 'mesa-absolute-35mm')!} />
-                    </div>
-                  )}
                 </div>
               )}
             </div>
