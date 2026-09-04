@@ -752,14 +752,8 @@ export const MelhorGuidao: React.FC = () => {
           Perguntas Frequentes (FAQ)
         </h2>
         <div className="space-y-4 prose prose-lg text-zinc-300 mb-8">
-          <p>A oficina é o lugar onde a gente mata aqueles mitos do mountain bike que, se você der ouvidos, vão arruinar seu domingo.</p>
-          <p>Tem quem ache que não pode serrar o guidão.</p>
-          <p>Pode sim! Se estiver longo demais a ponto de você bater nos galhos da trilha, passe a serra.</p>
-          <p>Mas faça cortando 10 milímetros de cada lado por vez, sem pressa, para não estragar a alavanca da sua 29.</p>
-          <p>E não faça gambiarras na mesa! O meio do seu guidão novo precisa ser igualzinho ao da sua mesa (hoje, 90% usam a medida 31.8mm).</p>
-          <p>Por último: tomou um rola nas pedras? Olhe sua bike.</p>
-          <p>O metal esconde microfissuras muito perigosas.</p>
-          <p>Não deixe o barato sair caro, inspecione sempre após um susto.</p>
+          <p>A oficina é o lugar onde a gente mata aqueles mitos do mountain bike que, se você der ouvidos, vão arruinar seu domingo. É muito comum surgirem dúvidas sobre instalação, ajustes finos e até onde é seguro modificar a peça original.</p>
+          <p>Para que você não precise aprender na tentativa e erro (ou no meio de um tombo), separamos as perguntas que os ciclistas mais fazem na hora de trocar o cockpit. Confira as respostas diretas para garantir um pedal seguro e sem surpresas.</p>
         </div>
 
         <div className="space-y-4 mb-16">
