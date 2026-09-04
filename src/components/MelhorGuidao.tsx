@@ -94,7 +94,7 @@ export const MelhorGuidao: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="/images/blog/1/melhor-guidao-para-bike-aro-29.webp" alt="Melhor guid�o para bike aro 29 Background" className="w-full h-full object-cover opacity-20 blur-sm" fetchpriority="high" width="1200" height="800" />
+          <img src="/images/blog/1/melhor-guidao-para-bike-aro-29.webp" alt="Melhor guidão para bike aro 29 Background" className="w-full h-full object-cover opacity-20 blur-sm" fetchpriority="high" width="1200" height="800" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a1a]/80 to-[#1a1a1a]"></div>
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -669,15 +669,10 @@ export const MelhorGuidao: React.FC = () => {
         <h2 className="text-3xl font-extrabold text-white border-b-4 border-cyan-400 pb-2 mt-16 mb-8">
           Como Escolher a Geometria Ideal para MTB 29?
         </h2>
-        <div className="space-y-6 prose prose-lg max-w-none text-zinc-300 mb-8">
-          <p>Para domar as rodas grandonas de uma aro 29, você precisa sacar um pouco da física da bike.</p>
-          <p>Como a roda tem muita inércia, se você usar um guidão muito curtinho, a direção vai ficar dura.</p>
-          <p>É por isso que recomendamos larguras acima de 700mm, te dando a alavanca certa para jogar a bike nas curvas fechadas sem fazer força de caminhoneiro.</p>
-          <p>O segredo está em misturar a altura (rise) com a entortadinha pra trás (backsweep).</p>
-          <p>Vai subir morro até desmaiar? Um guidão reto trava seu peso na frente e a roda não empina.</p>
-          <p>Quer descer rasgando ou rodar sem dor no pescoço? O curvo traz seu peito para cima.</p>
-          <p>Ah, e cheque sempre se o centro dele é de 31.8mm para não precisar comprar uma mesa nova.</p>
-          <p>Escolher certo aqui não é frescura, é economizar energia de verdade na trilha.</p>
+        <div className="space-y-4 prose prose-lg max-w-none text-zinc-300 mb-8">
+          <p>Para domar as rodas grandonas de uma aro 29, você precisa sacar um pouco da física da bike. A escolha do guidão não é apenas sobre estética; é sobre como você distribui o seu peso e controla a inércia da bicicleta nas trilhas.</p>
+          <p>Pequenas mudanças nos ângulos e materiais transformam completamente o comportamento da sua magrela, ditando se ela será agressiva para subir ladeiras ou confortável para encarar descidas e buracos.</p>
+          <p>A seguir, vamos destrinchar cada detalhe — do formato ao material — para você acertar em cheio no seu próximo upgrade e economizar energia de verdade na trilha.</p>
         </div>
 
         <h3 className="text-2xl font-bold text-white mb-4">Guidão Reto vs Curvo: Qual Garante Mais Controle?</h3>
@@ -693,7 +688,7 @@ export const MelhorGuidao: React.FC = () => {
         </div>
         
         <div className="my-12">
-          <img src="/images/blog/1/guidao-reto-vs-curvo.webp" alt="Comparativo Guid�o Reto vs Curvo" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
+          <img src="/images/blog/1/guidao-reto-vs-curvo.webp" alt="Comparativo Guidão Reto vs Curvo" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
         </div>
 
         <h3 className="text-2xl font-bold text-white mb-4">Alumínio vs Titânio: Qual o Melhor Material?</h3>
@@ -724,7 +719,7 @@ export const MelhorGuidao: React.FC = () => {
         </div>
 
         <div className="my-12">
-          <img src="/images/blog/1/guidao-backsweep-maos.webp" alt="Backsweep guiando a posi��o natural das m�os" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
+          <img src="/images/blog/1/guidao-backsweep-maos.webp" alt="Backsweep guiando a posição natural das mãos" className="w-full rounded-xl shadow-lg border border-zinc-700" width="800" height="600" loading="lazy" />
         </div>
 
         <h2 className="text-3xl font-extrabold text-white border-b-4 border-cyan-400 pb-2 mt-16 mb-8">
