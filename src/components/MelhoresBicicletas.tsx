@@ -377,25 +377,7 @@ export const MelhoresBicicletas: React.FC = () => {
             <img loading="lazy" width="800" height="600" src="/images/blog/1/bike_trilha.webp" alt="Bike na trilha" className="w-full rounded-xl shadow-lg border border-zinc-700" />
           </div>
 
-          {/* VÍDEO DO YOUTUBE */}
-          <div className="my-12 p-6 bg-slate-900 text-white rounded-2xl border border-slate-800 shadow-xl">
-            <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-cyan-400">
-              <Sparkles size={20} className="animate-spin" /> Freio a disco hidráulico vs mecânico. Qual foi o melhor no nosso teste de frenagem? Pedaleria
-            </h3>
-            <p className="text-sm text-slate-300 mb-6">Veja na prática a diferença entre os freios no teste feito pelo canal Pedaleria.</p>
-            <div className="flex justify-center">
-              <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube-nocookie.com/embed/q3rGmM_FRbw" 
-                title="YouTube video player" 
-                frameBorder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowFullScreen
-                className="max-w-full rounded-lg shadow-lg border border-slate-700"
-              ></iframe>
-            </div>
-          </div>
+          
         </section>
 
         {/* BUNNER DO MEIO */}
