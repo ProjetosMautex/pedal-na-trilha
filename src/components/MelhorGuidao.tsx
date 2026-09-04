@@ -59,19 +59,6 @@ export const MelhorGuidao: React.FC = () => {
       ]
     },
     {
-      question: "Qual a diferença entre guidão curvo e reto?",
-      answer: [
-        "O desenho muda radicalmente de que lado do equipamento você manda.",
-        "O formato reto (flat) te obriga a pedalar debruçado, cortando o vento e mantendo o pneu da frente cravado no chão em subidas cruéis.",
-        "Já o guidão curvo (riser) joga sua postura lá pra cima e pra trás, zerando a dor na cervical.",
-        "Ele te abraça e perdoa muito mais os pequenos vacilos em descidas assustadoras.",
-        "Resumindo: foco em velocidade e subida?",
-        "Vá no reto.",
-        "Foco em estabilidade e alívio das dores?",
-        "Vai no curvo."
-      ]
-    },
-    {
       question: "Devo trocar o guidão se sofrer uma queda?",
       answer: [
         "Com segurança não dá para jogar na loteria, meu amigo.",
@@ -791,17 +778,17 @@ export const MelhorGuidao: React.FC = () => {
           <p>Escolha o seu preferido na nossa lista e vá curtir as trilhas com zero sofrimento!</p>
         </div>
 
-        {/* AUTHOR BIO */}
-        <div className="mt-16 bg-zinc-800/50 p-6 sm:p-8 rounded-2xl border border-zinc-700 flex flex-col sm:flex-row gap-6 items-center sm:items-start">
-            <img src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-24 h-24 rounded-full border-4 border-cyan-400 object-cover" width="96" height="96" loading="lazy" />
+        {/* SOBRE O AUTOR */}
+        <div className="bg-cyan-950/20 p-8 rounded-2xl border border-cyan-900/50 shadow-sm mt-8 mb-16 flex flex-col md:flex-row items-center md:items-start gap-6">
+          <div className="shrink-0 mx-auto md:mx-0">
+            <img loading="lazy" width="800" height="600" src="/images/autores/Rafael Martins.webp" alt="Rafael Martins" className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-cyan-900/50 hover:border-cyan-500 transition-colors shadow-xl" />
+          </div>
           <div>
-            <h3 className="text-2xl font-bold text-white mb-2">Sobre o Autor: Rafael Martins</h3>
-            <p className="text-zinc-300 text-sm leading-relaxed mb-4">
-              Mecânico de bicicletas e ciclista apaixonado com mais de 10 anos de experiência em montagem, manutenção e testes de componentes. Especialista em ajudar ciclistas a encontrarem a configuração ideal para conforto e performance.
+            <h2 className="text-sm font-bold text-cyan-400 uppercase tracking-widest mb-2">Sobre o Autor</h2>
+            <h3 className="text-2xl font-bold text-white mb-4">Rafael Martins</h3>
+            <p className="text-zinc-300 leading-relaxed text-lg">
+              Rafael é um apaixonado por mecânica de bicicletas e ciclista inveterado. No balcão da oficina ou nas trilhas de final de semana, seu objetivo é traduzir o "mecaniquês" técnico e chato para ajudar as pessoas a não rasgarem dinheiro, escolhendo exatamente as peças que precisam. As recomendações aqui são fruto de mãos sujas de graxa, análise minuciosa de fichas oficiais e da vivência real de quem gasta o pneu no asfalto e na terra, defendendo sempre uma mobilidade mais inteligente e saudável.
             </p>
-            <a href="/author/rafael-martins" className="text-cyan-400 hover:text-cyan-300 font-bold text-sm inline-flex items-center gap-1">
-              Ver mais artigos de Rafael <ArrowRight size={16} />
-            </a>
           </div>
         </div>
 
