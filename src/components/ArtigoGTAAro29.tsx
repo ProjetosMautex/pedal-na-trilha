@@ -45,7 +45,7 @@ export const ArtigoGTAAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/GTA Start aro 29 21v e boa.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/GTA Start aro 29 21v e boa.webp" 
             alt="Bicicleta GTA Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -252,20 +252,7 @@ export const ArtigoGTAAro29: React.FC = () => {
           <p>Como todo kit barato, ele funciona bem, mas exige que você seja amigo do mecânico para manter tudo afinado.</p>
         </div>
 
-        {/* Video Youtube */}
-        <div className="bg-zinc-800/30 p-8 rounded-2xl border border-zinc-700/50 text-center my-16 shadow-lg">
-          <h2 className="text-2xl font-bold text-white mb-4">Review da GTA Start 21v</h2>
-          <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">Quer ver a magrela em detalhes? Confira no vídeo abaixo.</p>
-          <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl max-w-3xl mx-auto border border-zinc-700">
-            <iframe 
-              src="https://www.youtube-nocookie.com/embed/JmCS5hT_IOg" 
-              title="Review da GTA Start 21v" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-              className="w-full h-[300px] md:h-[450px]"
-            ></iframe>
-          </div>
-        </div>
+        
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
           <h2>Suspensão</h2>

@@ -91,7 +91,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/gts_pro_m5_card.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/gts_pro_m5_card.webp" 
             alt="Bicicleta GTS Pro M5 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -286,18 +286,7 @@ export const ArtigoGTSProM5Aro29: React.FC = () => {
         <BunnerDoMeio />
 
         <div className="prose prose-invert prose-lg max-w-none prose-cyan mb-12">
-          {/* VÍDEO DO YOUTUBE */}
-          <div className="my-12 aspect-video rounded-xl overflow-hidden shadow-lg border border-zinc-700 bg-zinc-900">
-            <iframe 
-              width="100%" 
-              height="100%" 
-              src="https://www.youtube-nocookie.com/embed/dML6uojG-08" 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-              allowFullScreen>
-            </iframe>
-          </div>
+          
 
           <h3>Facilidade de montagem</h3>
           <p>A caixa chegou em casa, e agora? Relaxa.</p>

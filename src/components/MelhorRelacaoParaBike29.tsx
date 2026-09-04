@@ -385,23 +385,7 @@ export const MelhorRelacaoParaBike29: React.FC = () => {
           Calculando a relação da bike
         </h2>
         
-        {/* YOUTUBE IFRAME */}
-        <div className="my-12 p-6 bg-slate-900 text-white rounded-2xl border border-slate-800 shadow-xl">
-          <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-cyan-400">
-            Como calcular a relação de marchas da sua bike
-          </h3>
-          <p className="text-sm text-slate-300 mb-6">Aprenda a matemática por trás do desenvolvimento métrico para acertar em cheio no seu upgrade.</p>
-          <div className="flex justify-center aspect-video w-full max-w-3xl mx-auto">
-            <iframe 
-              className="w-full h-full rounded-lg shadow-lg border border-slate-700"
-              src="https://www.youtube-nocookie.com/embed/0wFbz5wqvKQ" 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+        
 
         <div className="space-y-4 prose prose-lg text-zinc-300 max-w-none mb-12">
           <p>Quer entender de mecânica de verdade?</p>

@@ -48,7 +48,7 @@ export const ArtigoRavaAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/rava_card.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/rava_card.webp" 
             alt="Bicicleta Rava Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />

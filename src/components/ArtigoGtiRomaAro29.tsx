@@ -15,7 +15,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/bike-gti-roma-aro-29-e-boa.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/bike-gti-roma-aro-29-e-boa.webp" 
             alt="Bicicleta GTI Roma Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -298,17 +298,7 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
           <p>Mas a estabilidade e o baixo custo das peças de reposição compensam o esforço.</p>
           <p>Se o seu foco é custo-benefício real e ter uma base confiável para futuros upgrades, a GTI Roma entrega o que promete.</p>
 
-          <div className="my-12 aspect-video rounded-2xl overflow-hidden shadow-lg border border-zinc-700">
-            <iframe 
-              width="100%" 
-              height="100%" 
-              src="https://www.youtube-nocookie.com/embed/a33crdaYSHA" 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen>
-            </iframe>
-          </div>
+          
 
           <h2>Dica Prática: A Regra de Ouro do Mecânico</h2>
           <p>Comprou pela internet?</p>

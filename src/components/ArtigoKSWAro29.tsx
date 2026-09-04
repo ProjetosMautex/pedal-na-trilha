@@ -44,7 +44,7 @@ export const ArtigoKSWAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/principal_ksw.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/principal_ksw.webp" 
             alt="Bicicleta KSW Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -78,10 +78,10 @@ export const ArtigoKSWAro29: React.FC = () => {
 
         {/* Simulador de Perfil */}
         <div className="bg-zinc-800/50 p-6 md:p-8 rounded-2xl border border-cyan-900/50 shadow-lg mb-12">
-          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <HelpCircle className="w-6 h-6 text-cyan-500" />
             Simulador Rápido de Perfil
-          </h3>
+          </h2>
           <p className="text-zinc-300 mb-4">Onde você vai pedalar 80% do tempo?</p>
           <div className="space-y-3">
             <label className="flex items-center gap-3 p-3 rounded-lg border border-zinc-700 bg-zinc-900 cursor-pointer hover:border-cyan-500 transition-colors">
@@ -442,20 +442,7 @@ export const ArtigoKSWAro29: React.FC = () => {
           </div>
         </div>
 
-        {/* Video Youtube */}
-        <div className="bg-zinc-800/30 p-8 rounded-2xl border border-zinc-700/50 text-center my-16 shadow-lg">
-          <h2 className="text-2xl font-bold text-white mb-4">Vale a pena investir em freio hidráulico?</h2>
-          <p className="text-zinc-300 mb-8 max-w-2xl mx-auto">Confira no vídeo abaixo a diferença real de funcionamento entre o freio mecânico (KSW) e o freio hidráulico (Caloi e Absolute) e tire suas próprias conclusões.</p>
-          <div className="aspect-w-16 aspect-h-9 rounded-xl overflow-hidden shadow-2xl max-w-3xl mx-auto border border-zinc-700">
-            <iframe 
-              src="https://www.youtube-nocookie.com/embed/q3rGmM_FRbw" 
-              title="Freio a disco hidráulico vs mecânico" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-              className="w-full h-[300px] md:h-[450px]"
-            ></iframe>
-          </div>
-        </div>
+        
         
         
         {/* FAQ Section */}

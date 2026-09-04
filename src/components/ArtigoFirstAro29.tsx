@@ -66,7 +66,7 @@ export const ArtigoFirstAro29: React.FC = () => {
       {/* Hero Section */}
       <div className="relative bg-[#1a1a1a] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img loading="lazy" width="800" height="600" src="/images/blog/1/first_card.webp" 
+          <img fetchpriority="high" width="1200" height="800" src="/images/blog/1/first_card.webp" 
             alt="Bicicleta First Aro 29 Background" 
             className="w-full h-full object-cover opacity-20 blur-sm"
           />
@@ -101,10 +101,10 @@ export const ArtigoFirstAro29: React.FC = () => {
 
         {/* Simulador de Perfil */}
         <div className="bg-zinc-800/50 p-6 md:p-8 rounded-2xl border border-cyan-900/50 shadow-lg mb-12">
-          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <HelpCircle className="w-6 h-6 text-cyan-500" />
             Simulador Rápido de Perfil
-          </h3>
+          </h2>
           <p className="text-zinc-300 mb-4">Onde você vai pedalar 80% do tempo?</p>
           <div className="space-y-3">
             <label className="flex items-center gap-3 p-3 rounded-lg border border-zinc-700 bg-zinc-900 cursor-pointer hover:border-cyan-500 transition-colors">
@@ -239,20 +239,7 @@ export const ArtigoFirstAro29: React.FC = () => {
           </div>
         </div>
 
-        {/* Video Integration */}
-        <div className="my-12">
-          <h4 className="text-xl font-bold text-white mb-4">Veja o Shimano Deore em Ação:</h4>
-          <div className="relative pt-[56.25%] rounded-2xl overflow-hidden shadow-xl border border-zinc-700">
-            <iframe 
-              className="absolute inset-0 w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/4wI9pLxE0nk" 
-              title="YouTube video player" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen>
-            </iframe>
-          </div>
-        </div>
+        
 
         <BunnerDoMeio />
 
