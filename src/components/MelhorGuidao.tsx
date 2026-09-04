@@ -726,25 +726,7 @@ export const MelhorGuidao: React.FC = () => {
           Dicas de Instalação e Ajuste de Mesa
         </h2>
         
-        {/* VÍDEO DO YOUTUBE */}
-        <div className="my-12 p-6 bg-slate-900 text-white rounded-2xl border border-slate-800 shadow-xl">
-          <h3 className="text-xl font-bold mb-3 flex items-center gap-2 text-cyan-400">
-            <Sparkles size={20} className="animate-spin" /> Como instalar e alinhar guidão de bicicleta MTB
-          </h3>
-          <p className="text-sm text-slate-300 mb-6">Aprenda com este tutorial prático a melhor forma de ajustar o cockpit da sua magrela.</p>
-          <div className="flex justify-center">
-            <iframe loading="lazy" 
-              width="560" 
-              height="315" 
-              src="https://www.youtube-nocookie.com/embed/8bA_vNlO75Q" 
-              title="Como instalar guidão" 
-              frameBorder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowFullScreen
-              className="max-w-full rounded-lg shadow-lg border border-slate-700"
-            ></iframe>
-          </div>
-        </div>
+        
 
         <div className="space-y-4 prose prose-lg text-zinc-300 mb-8">
           <p>A instalação do guidão é o momento que separa um pedal seguro de um desastre no meio do mato.</p>
