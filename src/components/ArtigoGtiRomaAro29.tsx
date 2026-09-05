@@ -23,8 +23,8 @@ export const ArtigoGtiRomaAro29: React.FC = () => {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            Bicicleta GTI ROMA Aro 29 é boa Ou <br/>
-            <span className="text-cyan-400">Alternativa KSW é melhor?</span>
+            Bicicleta GTI Roma Aro 29 é Boa? <br/>
+            <span className="text-cyan-400">Cuidado Antes de Comprar!</span>
           </h1>
           <div className="flex items-center justify-center gap-4 text-sm text-zinc-400">
             <span className="flex items-center gap-2">

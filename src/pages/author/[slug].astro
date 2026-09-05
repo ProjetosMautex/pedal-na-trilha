@@ -19,7 +19,7 @@ const { author } = Astro.props;
     <div className="bg-[#18181b] rounded-2xl border border-cyan-900/30 overflow-hidden shadow-2xl">
       <div className="bg-gradient-to-r from-cyan-900/40 to-transparent p-8 md:p-12 border-b border-cyan-900/30 flex flex-col md:flex-row items-center md:items-start gap-8">
         <div className="shrink-0">
-          <img width="800" height="600" loading="lazy">
+          <img width="800" height="600" loading="lazy" src={author.imageUrl} alt={author.name} className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover border-4 border-cyan-500 shadow-xl" />
         </div>
         <div className="text-center md:text-left flex-1">
           <h1 className="text-4xl md:text-5xl font-extrabold text-zinc-100 mb-2">{author.name}</h1>

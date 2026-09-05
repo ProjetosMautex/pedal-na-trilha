@@ -56,8 +56,8 @@ export const ArtigoRavaAro29: React.FC = () => {
         </div>
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
-            Bicicleta Rava aro 29 é boa? Ou <br/>
-            <span className="text-cyan-400">Alternativas Caloi e Absolute são melhores?</span>
+            Bicicleta Rava Aro 29 é Boa? <br/>
+            <span className="text-cyan-400">Veja a Análise Completa!</span>
           </h1>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-gray-300 text-sm md:text-base">
             <div className="flex items-center gap-2">

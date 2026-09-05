@@ -405,6 +405,15 @@ export const products: Product[] = [
     imageUrl: "/images/blog/1/Guidão Bike Alumínio Reto 720mm 31.8mm Ahead Mtb Backsweep 9° Leve Resistente Ciclismo Mountain Bike Aro 29.webp",
     affiliateUrl: "https://meli.la/1RkNJ5D",
     category: "Guidão"
+  },
+  {
+    id: "colli-toronto",
+    name: "Bicicleta Colli Toronto Aluminio Aro 29 Disco-shimano 21v",
+    description: "A Colli Toronto foca no ciclista iniciante, misturando peças que dão conta do recado sem cobrar o preço absurdo de uma bicicleta de competição.",
+    imageUrl: "/images/blog/1/Bicicleta Colli Toronto Aluminio Aro 29 Disco-shimano 21v.webp",
+    affiliateUrl: "https://meli.la/2uNGCh7",
+    category: "Iniciantes/Urbano",
+    features: ["Quadro em Alumínio", "21 Marchas Shimano", "Freio a Disco"]
   }
 ];
 
