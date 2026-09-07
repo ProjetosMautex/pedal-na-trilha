@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoQualOTamanhoDoQuadro } from '../components/ArtigoQualOTamanhoDoQuadro.tsx';
+
+const title = "Qual o Tamanho do Quadro da Bicicleta Aro 29? Tabela e Guia";
+const description = "Dúvida sobre o tamanho do quadro aro 29? Descubra o segredo mecânico para calcular sua medida ideal e fuja das dores nas costas ao pedalar!";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoQualOTamanhoDoQuadro client:load />
+  </main>
+</Layout>

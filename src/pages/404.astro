@@ -1,0 +1,19 @@
+---
+// Essa página captura os erros 404/403 e redireciona instantaneamente para a home (/)
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0;url=/" />
+  <title>Redirecionando...</title>
+  <script>
+    // Redirecionamento via JavaScript como garantia
+    window.location.replace("/");
+  </script>
+</head>
+<body style="background-color: #09090b; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif;">
+  <p>Página não encontrada. Redirecionando para a Home...</p>
+</body>
+</html>

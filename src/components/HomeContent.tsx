@@ -1,6 +1,7 @@
 import React from 'react';
 import { articles } from '../data/articles';
 import { Zap, Shield, Battery, ArrowRight } from 'lucide-react';
+import { BikeFitSimulator } from './BikeFitSimulator';
 
 export default function HomeContent() {
   return (
@@ -54,8 +55,32 @@ export default function HomeContent() {
         </div>
       </section>
 
+      {/* Bike Fit Section */}
+      <section className="py-24 bg-[#09090b]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-zinc-100">Acerte no Tamanho do Quadro</h2>
+            <p className="text-zinc-400 text-lg">
+              Um dos maiores erros na hora de comprar uma bicicleta aro 29 é escolher o quadro errado. 
+              Veja nossa tabela visual abaixo e use o simulador para descobrir o tamanho perfeito para você!
+            </p>
+          </div>
+          
+          <img 
+            loading="lazy" 
+            width="800" 
+            height="1100" 
+            src="/images/blog/1/tabela-tamanho-quadro-bike-aro-29.webp" 
+            alt="Infográfico mostrando a tabela de tamanho de quadro por altura para bicicleta aro 29" 
+            className="w-full rounded-2xl shadow-2xl border border-zinc-800 mb-8 object-contain" 
+          />
+          
+          <BikeFitSimulator />
+        </div>
+      </section>
+
       {/* Latest Articles Grid */}
-      <section className="py-24">
+      <section className="py-24 bg-[#18181b]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-zinc-100">Últimos Artigos</h2>

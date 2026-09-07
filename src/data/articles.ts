@@ -83,6 +83,17 @@ export const articles: Article[] = [
     url: "/bicicleta-colli-toro-aro-29-e-boa",
     image: "/images/blog/1/bicicleta-colli-toro-aro-29-e-boa.webp",
     excerpt: "A Colli Toronto se posiciona como uma parceira estratégica para quem quer aposentar o ônibus. Veja nossa análise mecânica completa e descubra se ela aguenta o seu dia a dia!"
+  },
+  {
+    title: "bicicleta gt sprint mx7 aro 29 é boa? Vale o Seu Dinheiro?",
+    url: "/bicicleta-gt-sprint-mx7-aro-29-e-boa",
+    image: "/images/blog/1/bicicleta-29-gt-sprint-mx7-e-boa.webp",
+  },
+  {
+    title: "Qual o Tamanho do Quadro da Bicicleta Aro 29? Tabela e Guia",
+    url: "/qual-o-tamanho-do-quadro-da-bicicleta-aro-29",
+    image: "/images/blog/1/tabela-medidas-quadro-bicicleta-aro-29-pt.webp",
+    excerpt: "Dúvida sobre o tamanho do quadro aro 29? Descubra o segredo mecânico para calcular sua medida ideal e fuja das dores nas costas ao pedalar!"
   }
 ];
 

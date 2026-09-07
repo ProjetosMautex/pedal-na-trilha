@@ -4,6 +4,7 @@ import BunnerDoMeio from './BunnerDoMeio';
 import ExitIntentPopup from './ExitIntentPopup';
 import { products, accessories } from '../data/products';
 import { HelpCircle, ArrowRight, Check, X, Sparkles, ShoppingCart, ChevronDown, ChevronUp } from 'lucide-react';
+import { BikeFitSimulator } from './BikeFitSimulator';
 
 export const MelhoresBicicletas: React.FC = () => {
   const [quizResult, setQuizResult] = useState<string | null>(null);
@@ -658,7 +659,13 @@ export const MelhoresBicicletas: React.FC = () => {
               <p className="text-cyan-900">Não compre pelo visual antes de checar o tamanho do quadro! Um quadro 15" atende pessoas de 1,50m a 1,60m. Quadros 17" vão de 1,60m a 1,75m, e 19" para quem tem 1,75m a 1,85m. Usar o quadro errado causa dores crônicas na lombar e joelhos.</p>
             </div>
             
-            <img loading="lazy" width="800" height="600" src="/images/blog/1/bike_fit.webp" alt="Medidas da Bicicleta" className="w-full rounded-xl shadow-lg border border-zinc-700 mt-6" />
+            <div className="prose prose-lg text-zinc-300 mt-8 mb-6">
+              <p>Como explicamos acima, a tabela abaixo mostra visualmente a relação exata entre a sua altura e o quadro ideal:</p>
+            </div>
+            
+            <img loading="lazy" width="800" height="800" src="/images/blog/1/tabela-tamanho-quadro-bike-aro-29.webp" alt="Infográfico mostrando a tabela de tamanho de quadro por altura para bicicleta aro 29" className="w-full rounded-xl shadow-lg border border-zinc-700 mt-2 mb-8 object-contain bg-white" />
+            
+            <BikeFitSimulator />
           </div>
 
           <div>
