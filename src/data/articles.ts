@@ -94,6 +94,12 @@ export const articles: Article[] = [
     url: "/qual-o-tamanho-do-quadro-da-bicicleta-aro-29",
     image: "/images/blog/1/tabela-medidas-quadro-bicicleta-aro-29-pt.webp",
     excerpt: "Dúvida sobre o tamanho do quadro aro 29? Descubra o segredo mecânico para calcular sua medida ideal e fuja das dores nas costas ao pedalar!"
+  },
+  {
+    title: "Bicicleta Aro 29 é para qual idade? Descubra o tamanho ideal",
+    url: "/bicicleta-aro-29-e-para-qual-idade",
+    image: "/images/blog/1/bicicleta-aro-29-e-para-qual-idade.webp",
+    excerpt: "Descubra se a bicicleta aro 29 é indicada para você ou seu filho. Aprenda como a altura influencia mais que a idade na escolha do tamanho ideal."
   }
 ];
 

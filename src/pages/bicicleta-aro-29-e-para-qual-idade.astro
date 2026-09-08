@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoBicicletaAro29EParaQualIdade } from '../components/ArtigoBicicletaAro29EParaQualIdade.tsx';
+
+const title = "Bicicleta Aro 29 é para qual idade? Descubra o tamanho ideal";
+const description = "Descubra se a bicicleta aro 29 é indicada para você ou seu filho. Aprenda como a altura influencia mais que a idade na escolha do tamanho ideal.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoBicicletaAro29EParaQualIdade client:load />
+  </main>
+</Layout>
