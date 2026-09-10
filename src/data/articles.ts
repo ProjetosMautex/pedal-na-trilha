@@ -100,6 +100,12 @@ export const articles: Article[] = [
     url: "/bicicleta-aro-29-e-para-qual-idade",
     image: "/images/blog/1/bicicleta-aro-29-e-para-qual-idade.webp",
     excerpt: "Descubra se a bicicleta aro 29 é indicada para você ou seu filho. Aprenda como a altura influencia mais que a idade na escolha do tamanho ideal."
+  },
+  {
+    title: "Bicicleta Aro 26 ou 29: Qual Melhor para Você",
+    url: "/bicicleta-aro-26-ou-29-qual-o-melhor",
+    image: "/images/blog/1/bicicleta-aro-26-ou-29-qual-o-melhor.webp",
+    excerpt: "Bicicleta aro 26 ou 29: qual escolher? Entenda as diferenças na prática, saiba como o tamanho da roda impacta no trajeto e escolha a bike ideal para o seu pedal."
   }
 ];
 
