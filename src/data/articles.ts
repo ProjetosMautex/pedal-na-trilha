@@ -88,6 +88,7 @@ export const articles: Article[] = [
     title: "bicicleta gt sprint mx7 aro 29 é boa? Vale o Seu Dinheiro?",
     url: "/bicicleta-gt-sprint-mx7-aro-29-e-boa",
     image: "/images/blog/1/bicicleta-29-gt-sprint-mx7-e-boa.webp",
+    excerpt: "Descubra se a bicicleta GT Sprint MX7 aro 29 é uma boa opção de custo-benefício ou se vale a pena investir em outros modelos de entrada para suas trilhas."
   },
   {
     title: "Qual o Tamanho do Quadro da Bicicleta Aro 29? Tabela e Guia",
@@ -106,6 +107,18 @@ export const articles: Article[] = [
     url: "/bicicleta-aro-26-ou-29-qual-o-melhor",
     image: "/images/blog/1/bicicleta-aro-26-ou-29-qual-o-melhor.webp",
     excerpt: "Bicicleta aro 26 ou 29: qual escolher? Entenda as diferenças na prática, saiba como o tamanho da roda impacta no trajeto e escolha a bike ideal para o seu pedal."
+  },
+  {
+    title: "Como Montar Bicicleta Aro 29 do Zero (Guia Passo a Passo)",
+    url: "/como-montar-bicicleta-aro-29",
+    image: "/images/blog/1/como-montar-bicicleta-aro-29.webp",
+    excerpt: "Aprenda o passo a passo completo de como montar bicicleta aro 29 do zero em casa. Ferramentas, organização e ajustes precisos para um pedal seguro."
+  },
+  {
+    title: "Como Regular Marcha de Bicicleta Aro 29 Guia Passo a Passo",
+    url: "/como-regular-marcha-de-bicicleta-aro-29",
+    image: "/images/blog/1/como-regular-marcha-de-bicicleta-aro-29.webp",
+    excerpt: "Cansado de correntes saltando e ruídos na bike? Aprenda a regular as marchas da sua aro 29 com nosso guia definitivo e recupere a suavidade do seu pedal."
   }
 ];
 

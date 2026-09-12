@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoRegularMarcha } from '../components/ArtigoComoRegularMarcha.tsx';
+
+const title = "Como Regular Marcha de Bicicleta Aro 29 Guia Passo a Passo";
+const description = "Cansado de correntes saltando e ruídos na bike? Aprenda a regular as marchas da sua aro 29 com nosso guia definitivo e recupere a suavidade do seu pedal.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoRegularMarcha client:load />
+  </main>
+</Layout>
