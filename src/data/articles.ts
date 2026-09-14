@@ -119,6 +119,25 @@ export const articles: Article[] = [
     url: "/como-regular-marcha-de-bicicleta-aro-29",
     image: "/images/blog/1/como-regular-marcha-de-bicicleta-aro-29.webp",
     excerpt: "Cansado de correntes saltando e ruídos na bike? Aprenda a regular as marchas da sua aro 29 com nosso guia definitivo e recupere a suavidade do seu pedal."
+  },
+  {
+    title: "Como Passar Marcha de Bicicleta Aro 29 Guia Prático",
+    url: "/como-passar-marcha-de-bicicleta-aro-29",
+    image: "/images/blog/1/como-passar-marcha-de-bicicleta-aro-29.webp",
+    excerpt: "Aprenda na prática como trocar as marchas da sua bicicleta aro 29. Domine o sistema, poupe energia nas subidas e acabe com os estalos na corrente!"
+  },
+  {
+    title: "Como Colocar Corrente em Bike Aro 29 (Passo a Passo Fácil)",
+    url: "/como-colocar-corrente-em-bike-aro-29",
+    image: "/images/blog/1/como-colocar-corrente-em-bike-aro-29.webp",
+    excerpt: "Aprenda como colocar corrente em bike aro 29 com este guia prático. Evite falhas mecânicas, ganhe autonomia e garanta trocas de marcha suaves hoje mesmo!"
+  },
+  {
+    title: "Como Dar Grau de Bike Aro 29 Passo a Passo Completo",
+    url: "/como-dar-grau-de-bike-aro-29",
+    image: "/images/blog/1/como-dar-grau-de-bike-aro-29.webp",
+    excerpt: "Dominar o equilíbrio sobre a roda traseira é o sonho de muita gente que pedala e quer ter um controle maior sobre a bicicleta. Na prática do dia a dia, aprender a dar grau em uma aro 29 exige muito mais técnica e paciência do que força bruta nos braços."
   }
 ];
+
 

@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoPassarMarcha } from '../components/ArtigoComoPassarMarcha.tsx';
+
+const title = "Como Passar Marcha de Bicicleta Aro 29 Guia Prático";
+const description = "Aprenda na prática como trocar as marchas da sua bicicleta aro 29. Domine o sistema, poupe energia nas subidas e acabe com os estalos na corrente!";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoPassarMarcha client:load />
+  </main>
+</Layout>
