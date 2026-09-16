@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoRebaixarASuspensao } from '../components/ArtigoComoRebaixarASuspensao.tsx';
+
+const title = "Como Rebaixar a Suspensão da Bike Aro 29 em 3 Passos Seguros";
+const description = "Quer rebaixar a suspensão da sua bike aro 29 para ganhar performance? Descubra o passo a passo seguro para ajustar sua geometria e pilotar com precisão.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoRebaixarASuspensao client:load />
+  </main>
+</Layout>

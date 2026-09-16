@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoMontarGarfo } from '../components/ArtigoComoMontarGarfo.tsx';
+
+const title = "Como Montar o Garfo da Bicicleta Aro 29 Passo a Passo";
+const description = "Aprenda na prática como montar o garfo da bicicleta aro 29 passo a passo. Descubra os segredos mecânicos para eliminar folgas e garantir um pedal perfeito!";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoMontarGarfo client:load />
+  </main>
+</Layout>

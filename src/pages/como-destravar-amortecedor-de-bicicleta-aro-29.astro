@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoDestravarAmortecedor } from '../components/ArtigoComoDestravarAmortecedor.tsx';
+
+const title = "Como Destravar Amortecedor de Bicicleta Aro 29 em Casa";
+const description = "A suspensão da sua bike aro 29 travou e ficou dura? Aprenda passo a passo a diagnosticar o problema, realizar a manutenção em casa e descubra quando trocar por um garfo rígido.";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoDestravarAmortecedor client:load />
+  </main>
+</Layout>

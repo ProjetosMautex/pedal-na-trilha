@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArtigoComoColocarCesta } from '../components/ArtigoComoColocarCesta.tsx';
+
+const title = "Como Colocar Cesta na Bicicleta Aro 29 (Com Amortecedor)";
+const description = "Quer levar carga na sua aro 29 sem perder a estabilidade e a leveza? Aprenda a dica de ouro da oficina para colocar cesta com amortecedor e rodar seguro!";
+---
+
+<Layout title={title} description={description}>
+  <main className="bg-[#09090b] min-h-screen">
+    <ArtigoComoColocarCesta client:load />
+  </main>
+</Layout>

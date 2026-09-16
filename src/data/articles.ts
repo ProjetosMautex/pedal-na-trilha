@@ -137,7 +137,30 @@ export const articles: Article[] = [
     url: "/como-dar-grau-de-bike-aro-29",
     image: "/images/blog/1/como-dar-grau-de-bike-aro-29.webp",
     excerpt: "Dominar o equilíbrio sobre a roda traseira é o sonho de muita gente que pedala e quer ter um controle maior sobre a bicicleta. Na prática do dia a dia, aprender a dar grau em uma aro 29 exige muito mais técnica e paciência do que força bruta nos braços."
+  },
+  {
+    title: "Como Colocar Cesta na Bicicleta Aro 29 (Com Amortecedor)",
+    url: "/como-colocar-cesta-na-bicicleta-aro-29",
+    image: "/images/blog/1/como-colocar-cesta-na-bicicleta-aro-29.webp",
+    excerpt: "Quer levar carga na sua aro 29 sem perder a estabilidade e a leveza? Aprenda a dica de ouro da oficina para colocar cesta com amortecedor e rodar seguro!"
+  },
+  {
+    title: "Como Rebaixar a Suspensão da Bike Aro 29 em 3 Passos Seguros",
+    url: "/como-rebaixar-a-suspensao-da-bike-aro-29",
+    image: "/images/blog/1/como-rebaixar-a-suspensao-da-bike-aro-29.webp",
+    excerpt: "Quer rebaixar a suspensão da sua bike aro 29 para ganhar performance? Descubra o passo a passo seguro para ajustar sua geometria e pilotar com precisão."
+  },
+  {
+    title: "Como Destravar Amortecedor de Bicicleta Aro 29 em Casa",
+    url: "/como-destravar-amortecedor-de-bicicleta-aro-29",
+    image: "/images/blog/1/como-destravar-amortecedor-de-bicicleta-aro-29.webp",
+    excerpt: "A suspensão da sua bike aro 29 travou e ficou dura? Aprenda passo a passo a diagnosticar o problema, realizar a manutenção em casa e descubra quando trocar por um garfo rígido."
+  },
+  {
+    title: "Como Montar o Garfo da Bicicleta Aro 29 Passo a Passo",
+    url: "/como-montar-o-garfo-da-bicicleta-aro-29",
+    image: "/images/blog/1/como-montar-o-garfo-da-bicicleta-aro-29.webp",
+    excerpt: "Aprenda na prática como montar o garfo da bicicleta aro 29 passo a passo. Descubra os segredos mecânicos para eliminar folgas e garantir um pedal perfeito!"
   }
 ];
-
 
