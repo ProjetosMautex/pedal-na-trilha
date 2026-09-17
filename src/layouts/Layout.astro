@@ -10,6 +10,7 @@ export interface Props {
 }
 
 const { title, description = "A autoridade máxima em mountain bikes e equipamentos." } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!DOCTYPE html>
@@ -19,9 +20,20 @@ const { title, description = "A autoridade máxima em mountain bikes e equipamen
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     
+    <!-- Prevent indexing of legacy URL query parameters -->
+    <script is:inline>
+      if (window.location.search.includes('site=produtoDetalhe')) {
+        var meta = document.createElement('meta');
+        meta.name = 'robots';
+        meta.content = 'noindex';
+        document.head.appendChild(meta);
+      }
+    </script>
+
     <!-- Preconnect to Google Fonts to speed up LCP/FCP -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
